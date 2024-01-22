@@ -1,9 +1,9 @@
-import './App.css'
+import NavHeader from './pages/header/NavHeader'
 
 const App = () => {
   return (
     <>
-    <h1>Hello World!</h1>
+    <NavHeader />
     </>
   )
 }

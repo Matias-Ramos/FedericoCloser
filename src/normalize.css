@@ -24,6 +24,15 @@ h2, h3 {
 }
 
 section {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding: 6rem 0px;
+}
+header{
+  padding: 2rem 0px
+}
+
+section:nth-child(odd){
+  background-color: #f8f9fa;
+}
+section:nth-child(even){
+  background-color: #e9ecef;
 }

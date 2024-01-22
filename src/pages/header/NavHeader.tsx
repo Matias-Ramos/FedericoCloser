@@ -14,7 +14,7 @@ const NavHeader = () => {
         <Container fluid>
             <Row className={rowStyle}>
 
-                <Col xs={5} md={3}>
+                <Col xs={5} md={2}>
                     <Logo />
                 </Col>
 

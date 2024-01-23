@@ -3,51 +3,35 @@ import Col from 'react-bootstrap/Col';
 // Data
 import members from './members';
 // Icons
-import { FaXTwitter , FaFacebook , FaInstagram , FaTiktok  } from "react-icons/fa6";
+import SmediaMapper from './SmediaMapper';
+// Style
+const txtOuterCtStyle = 'd-flex flex-column h-100 justify-content-between';
+const nameStyle = "text-center mt-3"
 
-const CardsMapper = () => {
-  return (
+const CardsMapper = () => (
     <>
-    {members.map(member => {
-        return(
-            <>
-            <Col xs={12} lg={4} className="d-flex flex-column " style={{border:"1px solid red", padding:"5px"}}>
-                <img src={member.picture} alt={`imagen de ${member.name}`} />
-                <div className='d-flex flex-column h-100 justify-content-between'>
-                    <span className='text-center'>{member.name}</span>
-                    <span>{member.exp}</span>
-                    <div className='d-flex flex-column'>
-                        {
-                            member.fb &&
-                            <a href={member.fb}>
-                                <FaFacebook />
-                            </a>
-                        }
-                        {
-                            member.tiktok &&
-                            <a href={member.tiktok}>
-                                <FaTiktok />
-                            </a>
-                        }
-                        {
-                            member.instagram &&
-                            <a href={member.instagram}>
-                                <FaInstagram />
-                            </a>
-                        }
-                        {
-                            member.twitter &&
-                            <a href={member.twitter}>
-                                <FaXTwitter />
-                            </a>
-                        }
+        {members.map((member) => {
+            return (
+                <Col
+                    xs={12}
+                    lg={4}
+                    key={member.name}
+                    className="d-flex flex-column"
+                >
+
+                    <img src={member.picture} alt={`Foto de ${member.name}`} />
+                    <div className={txtOuterCtStyle}>
+                        <span className={nameStyle}>
+                            {member.name}
+                        </span>
+                        <span className='my-3'>
+                            {member.exp}
+                        </span>
+                        <SmediaMapper member={member} />
                     </div>
-                </div>
-            </Col>
-            </>
-        )
-    })}
+                </Col>
+            )
+        })}
     </>
-  )
-}
+)
 export default CardsMapper

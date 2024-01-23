@@ -1,0 +1,12 @@
+@media only screen and (max-width: 991px) {
+    #purpose {
+        position: relative;
+
+        .purposeLogo {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

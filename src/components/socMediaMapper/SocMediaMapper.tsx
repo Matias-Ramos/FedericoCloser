@@ -3,9 +3,9 @@ import { FaXTwitter, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa6";
 // Style
 const containerStyle = 'd-flex flex-row justify-content-evenly my-3';
 // Types
-import { Member } from "./members";
+import { Member } from "./MembersType";
 
-const SmediaMapper = ({ member }: { member: Member }) => (
+const SocMediaMapper = ({ member }: { member: Member }) => (
   <div className={containerStyle}>
     {Object.entries(member.socialMedia).map(([social, link]) => (
       <a
@@ -22,4 +22,4 @@ const SmediaMapper = ({ member }: { member: Member }) => (
     ))}
   </div>
 )
-export default SmediaMapper
+export default SocMediaMapper

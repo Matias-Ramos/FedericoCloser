@@ -1,14 +1,5 @@
-export type Member = {
-    name: string,
-    picture: string,
-    exp: string,
-    socialMedia: {
-        fb?: string,
-        tiktok?: string,
-        twitter?: string,
-        instagram?: string,
-    },
-}
+import { Member } from "../../../components/socMediaMapper/MembersType";
+
 const cesar: Member = {
     name: "Cesar Jorquera",
     picture: "/leaders/cesar.jpg",

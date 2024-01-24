@@ -1,7 +1,7 @@
 // BTS
 import { Container, Row, Col } from 'react-bootstrap';
 // Components
-import Logo from '../../components/Logo';
+import Logo from '../../../components/Logo';
 import Text from './Text';
 // Style
 const sectionStyle = "position-relative"

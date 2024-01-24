@@ -1,16 +1,16 @@
 // BTS
 import Col from 'react-bootstrap/Col';
 // Data
-import members from './members';
+import memberList from './memberList';
 // Icons
-import SmediaMapper from './SmediaMapper';
+import SocMediaMapper from '../../../components/socMediaMapper/SocMediaMapper';
 // Style
 const txtOuterCtStyle = 'd-flex flex-column h-100 justify-content-between';
 const nameStyle = "text-center mt-3"
 
 const CardsMapper = () => (
     <>
-        {members.map((member) => {
+        {memberList.map((member) => {
             return (
                 <Col
                     xs={12}
@@ -27,7 +27,7 @@ const CardsMapper = () => (
                         <span className='my-3'>
                             {member.exp}
                         </span>
-                        <SmediaMapper member={member} />
+                        <SocMediaMapper member={member} />
                     </div>
                 </Col>
             )

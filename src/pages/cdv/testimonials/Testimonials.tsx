@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import CardMapper from './CardMapper';
 import Header from './Header';
-import Logo from '../../components/Logo';
+import Logo from '../../../components/Logo';
 
 // Styling
 const h2rowStyling = 'd-flex justify-content-center'

@@ -1,7 +1,7 @@
 // BTS
 import { Container, Row, Col } from 'react-bootstrap';
 // Components
-import Logo from '../../components/Logo';
+import Logo from '../../../components/Logo';
 import BtnGroup from './BtnGroup';
 // Style
 const rowStyle='d-flex justify-content-center justify-content-lg-between'

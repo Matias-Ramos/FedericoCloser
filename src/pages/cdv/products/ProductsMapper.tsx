@@ -2,6 +2,7 @@
 import { Col, Row } from "react-bootstrap";
 // Data
 import productsList from "./productList";
+import CtaBtn from "../../../components/CtaBtn";
 // Style
 const rowStyle = "productRow my-5 justify-content-center gap-5";
 const imgColStyle = "d-flex justify-content-center productCol";
@@ -34,9 +35,9 @@ const ProductsMapper = () => {
                                     {product.description}
                                 </span>
 
-                                <button className={btnStyle}>
-                                    Adquirir
-                                </button>
+                                <div className={btnStyle}>
+                                    <CtaBtn text="Adquirir" variant="contained" handleClick={()=>{}} />
+                                </div>
                             </Col>
                         </Row>
                     )

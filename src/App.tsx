@@ -1,10 +1,10 @@
-import Detail from './pages/detail/Detail'
-import Footer from './pages/footer/Footer'
-import NavHeader from './pages/header/NavHeader'
-import Leaders from './pages/leaders/Leaders'
-import Products from './pages/products/Products'
-import Purpose from './pages/purpose/Purpose'
-import Testimonials from './pages/testimonials/Testimonials'
+import Detail from './pages/cdv/detail/Detail'
+import Footer from './pages/cdv/footer/Footer'
+import NavHeader from './pages/cdv/header/NavHeader'
+import Leaders from './pages/cdv/leaders/Leaders'
+import Products from './pages/cdv/products/Products'
+import Purpose from './pages/cdv/purpose/Purpose'
+import Testimonials from './pages/cdv/testimonials/Testimonials'
 
 const App = () => {
   return (

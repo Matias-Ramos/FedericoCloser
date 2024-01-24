@@ -1,7 +1,7 @@
 // BTS Grid
 import { Col } from "react-bootstrap"
 // Components
-import Button from '@mui/material/Button';
+import CtaBtn from "../../../components/CtaBtn";
 
 const Cta = () => (
     <>
@@ -15,9 +15,7 @@ const Cta = () => (
         </Col>
 
         <Col xs={12} lg={5}>
-            <Button variant="outlined">
-                Descargar PDF
-            </Button>
+            <CtaBtn text="Descargar PDF" variant="outlined" handleClick={()=>{}} />
         </Col>
 
     </>

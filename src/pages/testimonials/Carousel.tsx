@@ -14,15 +14,28 @@ const Carousel = (({ testimonial }: {testimonial : Testimonial}) => {
         };
     
         return (
-            <CarouselBts >
+            <CarouselBts interval={null}>
                 {testimonial.data.map( (evidence, index) => {
                     return(
                         <CarouselBts.Item key={index}>
-                            <img
-                                src={evidence}
-                                className={getImgClasses()}
-                                alt="Screenshot del testimonio" 
-                            />
+                            {
+                                evidence.includes('https') ?
+                                <iframe
+                                    src={evidence}
+                                    width="560"
+                                    height="315"
+                                    style={{display: "block", marginLeft: "auto", marginRight:"auto"}}
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                                :
+                                <img
+                                    src={evidence}
+                                    className={getImgClasses()}
+                                    alt="Screenshot del testimonio" 
+                                />
+                            }
                         </CarouselBts.Item>
                     )
                 })} 

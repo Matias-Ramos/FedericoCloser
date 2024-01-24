@@ -12,7 +12,6 @@ const cardStyling = { color: "white", backgroundColor: "rgba(0, 80, 157,0.8)", t
 const CardMapper = () => {
     return (
         <>
-
             {testimonialList.map((testimonial) => (
                 <Card
                     key={testimonial.id}

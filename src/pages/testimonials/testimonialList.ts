@@ -21,7 +21,8 @@ const testimonialOne = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/1.png", 
     "/testimonials/Afiliado_de_Hotmark/2.png", 
     "/testimonials/Afiliado_de_Hotmark/3.png", 
-    "/testimonials/Afiliado_de_Hotmark/4.png", 
+    "/testimonials/Afiliado_de_Hotmark/4.png",
+    "https://www.youtube.com/embed/OGi3t5JL-VI?si=dZqVyOF-hpf02-9q"
   ])
 
 const testimonialTwo = new Testimonial('Afiliado de Hotmark', ["asd"])

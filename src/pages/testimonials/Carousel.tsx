@@ -22,7 +22,7 @@ const Carousel = (({ testimonial }: {testimonial : Testimonial}) => {
                                 evidence.includes('https') ?
                                 <iframe
                                     src={evidence}
-                                    width="560"
+                                    width="100%"
                                     height="315"
                                     style={{display: "block", marginLeft: "auto", marginRight:"auto"}}
                                     title="YouTube video player"

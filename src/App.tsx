@@ -1,4 +1,5 @@
 import Detail from './pages/detail/Detail'
+import Footer from './pages/footer/Footer'
 import NavHeader from './pages/header/NavHeader'
 import Leaders from './pages/leaders/Leaders'
 import Products from './pages/products/Products'
@@ -14,6 +15,7 @@ const App = () => {
     <Leaders />
     <Products />
     <Testimonials />
+    <Footer />
     </>
   )
 }

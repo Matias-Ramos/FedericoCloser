@@ -18,10 +18,10 @@ const BtnGroup = () => {
             sx={{boxShadow:"none"}}
             >
             <Button>
-                <h1>Campamento de ventas</h1>
+                <h1 style={{fontSize:"1.1rem"}}>Campamento de ventas</h1>
             </Button>
             <Button>
-                <h1>Federico Santos</h1>
+                <h1 style={{fontSize:"1.1rem"}}>Federico Santos</h1>
             </Button>
         </ButtonGroup>
     )

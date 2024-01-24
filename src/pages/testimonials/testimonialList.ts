@@ -22,7 +22,7 @@ const testimonialOne = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/2.png",
     "/testimonials/Afiliado_de_Hotmark/3.png",
     "/testimonials/Afiliado_de_Hotmark/4.png",
-    "https://www.youtube.com/embed/OGi3t5JL-VI?si=dZqVyOF-hpf02-9q"
+    "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
 const testimonialTwo = new Testimonial(
   'Afiliado de Hotmark',
@@ -31,7 +31,7 @@ const testimonialTwo = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/2.png",
     "/testimonials/Afiliado_de_Hotmark/3.png",
     "/testimonials/Afiliado_de_Hotmark/4.png",
-    "https://www.youtube.com/embed/OGi3t5JL-VI?si=dZqVyOF-hpf02-9q"
+    "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
 const testimonialThree = new Testimonial(
   'Joven de 16 años',
@@ -40,7 +40,7 @@ const testimonialThree = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/2.png",
     "/testimonials/Afiliado_de_Hotmark/3.png",
     "/testimonials/Afiliado_de_Hotmark/4.png",
-    "https://www.youtube.com/embed/OGi3t5JL-VI?si=dZqVyOF-hpf02-9q"
+    "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
 const testimonialFour = new Testimonial(
   'Concesionaria de autos',
@@ -49,7 +49,7 @@ const testimonialFour = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/2.png",
     "/testimonials/Afiliado_de_Hotmark/3.png",
     "/testimonials/Afiliado_de_Hotmark/4.png",
-    "https://www.youtube.com/embed/OGi3t5JL-VI?si=dZqVyOF-hpf02-9q"
+    "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
 const testimonialList = [testimonialOne, testimonialTwo, testimonialThree, testimonialFour];
 export default testimonialList;

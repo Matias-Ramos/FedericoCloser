@@ -1,0 +1,31 @@
+#about{
+    img{
+        width: 100%;
+    }
+    #metrics span {
+        display: block;
+        &:first-child{
+            font-weight: bold;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #about {
+
+        #header {
+            text-align: center;
+        }
+
+        button {
+            width: 75%;
+            margin: 1rem auto 0px auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about button {
+        width: 25%;
+    }
+}

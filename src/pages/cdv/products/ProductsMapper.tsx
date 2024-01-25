@@ -8,7 +8,7 @@ const rowStyle = "productRow my-5 justify-content-center gap-5";
 const imgColStyle = "d-flex justify-content-center productCol";
 const txtColStyle = "d-flex flex-column justify-content-center productCol";
 const productNameStyle = "text-center text-lg-start";
-const btnStyle = "d-block mt-2";
+
 
 const ProductsMapper = () => {
     return (
@@ -35,9 +35,7 @@ const ProductsMapper = () => {
                                     {product.description}
                                 </span>
 
-                                <div className={btnStyle}>
-                                    <CtaBtn text="Adquirir" variant="contained" handleClick={()=>{}} />
-                                </div>
+                                <CtaBtn text="Adquirir" variant="contained" handleClick={()=>{}} />
                             </Col>
                         </Row>
                     )

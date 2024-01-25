@@ -1,30 +1,20 @@
-import Detail from './pages/cdv/detail/Detail'
-import Footer from './pages/cdv/footer/Footer'
+// Components
 import NavHeader from './pages/cdv/header/NavHeader'
-import Leaders from './pages/cdv/leaders/Leaders'
-import Products from './pages/cdv/products/Products'
-import Purpose from './pages/cdv/purpose/Purpose'
-import TestimonialsCdv from './pages/cdv/testimonials/Testimonials'
-import About from './pages/fede/aboutFede/About'
-import Intro from './pages/fede/introduction/Intro'
-import Pitch from './pages/fede/pitch/Pitch'
-import Testimonials from './pages/fede/testimonials/Testimonials'
+import Cdv from './pages/cdv/Cdv'
+import FedeSantos from './pages/fede/FedeSantos'
+// Nav
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-    <NavHeader />
-    <Purpose />
-    <Detail />
-    <Leaders />
-    <Products />
-    <TestimonialsCdv />
-    <Footer />
-    <Intro />
-    <About />
-    <Testimonials />
-    <Pitch />
-    </>
+    <BrowserRouter>
+      <NavHeader />
+      <Routes>
+        <Route path="/"               element={<Cdv />} />
+        <Route path="/cdv"            element={<Cdv />} />
+        <Route path="/FedericoSantos" element={<FedeSantos />} />
+      </ Routes>
+    </BrowserRouter>
   )
 }
 

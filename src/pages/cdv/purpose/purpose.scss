@@ -2,6 +2,16 @@
     #purpose {
         position: relative;
 
+        background-image: url("/backgrounds/curveLines.svg");
+        // Parallax
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid #dee2e6;
+        padding: 7rem 0px 8rem 0px;
+        
+
         .purposeLogo {
             position: absolute;
             top: 100%;

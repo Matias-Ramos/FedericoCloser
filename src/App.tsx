@@ -1,5 +1,5 @@
 // Components
-import NavHeader from './pages/cdv/header/NavHeader'
+import NavHeader from './components/header/NavHeader'
 import Cdv from './pages/cdv/Cdv'
 import FedeSantos from './pages/fede/FedeSantos'
 // Nav

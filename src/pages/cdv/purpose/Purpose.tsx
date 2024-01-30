@@ -15,8 +15,8 @@ const Purpose = () => (
                 <Col xs={12} lg={8} className={txtStyle}>
                     <Text />
                 </Col>
-                <Col xs={6} lg={4} className={logoStyle}>
-                    <Logo />
+                <Col xs={6} sm={3} lg={4} className={logoStyle}>
+                    <Logo color="blue"/>
                 </Col>
             </Row>
         </Container>

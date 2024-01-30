@@ -10,3 +10,30 @@
         }
     }
 }
+
+@media only screen and (min-width: 992px) {
+    #purpose {
+        padding: 15rem 0px;
+        position: relative;
+
+        #purposeBckg {
+            padding: 3rem 0px;
+            background-image: url("/backgrounds/curveLines.svg");
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-top: 1px solid #dee2e6;
+            // Parallax
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .purposeLogo img {
+            height: 400px;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

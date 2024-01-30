@@ -10,16 +10,18 @@ const logoStyle = "purposeLogo"
 
 const Purpose = () => (
     <section id="purpose" className={sectionStyle}>
-        <Container>
-            <Row>
-                <Col xs={12} lg={8} className={txtStyle}>
-                    <Text />
-                </Col>
-                <Col xs={6} sm={3} lg={4} className={logoStyle}>
-                    <Logo color="blue"/>
-                </Col>
-            </Row>
-        </Container>
+        <div id="purposeBckg">
+            <Container>
+                <Row>
+                    <Col xs={12} lg={8} className={txtStyle}>
+                        <Text />
+                    </Col>
+                    <Col xs={6} sm={3} lg={4} className={logoStyle}>
+                        <Logo color="blue"/>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     </section>
 )
 export default Purpose

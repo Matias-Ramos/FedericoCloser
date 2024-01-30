@@ -8,14 +8,14 @@ import TestimonialsCdv from "./testimonials/TestimonialsCdv"
 const Cdv = () => {
   return (
     <>
-    <main>
-      <Purpose />
-      <Detail />
-      <Leaders />
-      <Products />
-      <TestimonialsCdv />
-    </main>
-    <Footer />
+      <main>
+        <Purpose />
+        <Detail />
+        <Leaders />
+        <Products />
+        <TestimonialsCdv />
+      </main>
+      <Footer />
     </>
   )
 }

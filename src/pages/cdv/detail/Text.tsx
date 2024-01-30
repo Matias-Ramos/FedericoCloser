@@ -1,7 +1,7 @@
 import Col from 'react-bootstrap/Col';
 
 const Text = () => (
-    <Col xs={12} lg={8}>
+    <Col xs={12} lg={6}>
         <h2>[Detalle]</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem non magnam, voluptatibus cum quaerat adipisci ratione ab impedit facere tempore deserunt ducimus pariatur, provident.</p>
         <ul>

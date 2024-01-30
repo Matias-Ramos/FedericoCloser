@@ -2,6 +2,7 @@
 import { Col } from "react-bootstrap"
 // Components
 import CtaBtn from "../../../components/CtaBtn";
+import Chevron from "../../../components/chevron/Chevron";
 
 const Cta = () => (
     <>
@@ -11,7 +12,7 @@ const Cta = () => (
         </Col>
 
         <Col xs={12} lg={2}>
-            <span>{"------>"}</span>
+            <Chevron />
         </Col>
 
         <Col xs={12} lg={5}>

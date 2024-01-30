@@ -12,9 +12,7 @@ body {
 }
 
 h1 {
-  /* font-size: 1rem!important; */
   font-family: sans-serif;
-  /* font-weight: bold; */
   margin-bottom: 0!important;
 }
 
@@ -36,9 +34,14 @@ main{
   z-index: 2;
 }
 
+
 section:nth-child(odd){
   background-color: #f8f9fa;
 }
 section:nth-child(even){
   background-color: #e9ecef;
 }
+
+/* #firstBackground{
+  background-image: url("/backgrounds/groovepaper.png");
+} */

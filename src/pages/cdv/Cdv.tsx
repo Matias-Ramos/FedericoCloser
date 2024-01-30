@@ -9,8 +9,10 @@ const Cdv = () => {
   return (
     <>
       <main>
-        <Purpose />
-        <Detail />
+        <div id="firstBackground">
+          <Purpose />
+          <Detail />
+        </div>
         <Leaders />
         <Products />
         <TestimonialsCdv />

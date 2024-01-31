@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 // Components
 import Text from './Text';
 import CallToAction from './Cta';
+import CardMapper from './CardMapper';
 // Styling
 const txtStyle = 'd-flex justify-content-lg-center';
 const ctaStyle = 'd-flex flex-row align-items-center text-center py-2 mt-5 gap-2 gap-lg-0';
@@ -17,7 +18,7 @@ const glassmorphism = {
 const Detail = () => {
   return (
     <section>
-        <Container fluid>
+        <Container>
             <Row className={txtStyle}>
                 <Text />
             </Row>

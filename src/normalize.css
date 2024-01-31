@@ -35,13 +35,10 @@ main{
 }
 
 
-section:nth-child(odd){
+/* section:nth-child(odd){
   background-color: #f8f9fa;
 }
 section:nth-child(even){
   background-color: #e9ecef;
-}
-
-/* #firstBackground{
-  background-image: url("/backgrounds/groovepaper.png");
 } */
+

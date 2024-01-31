@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Logo from '../../../components/Logo';
 import Text from './Text';
 // Style
-const sectionStyle = "position-relative"
+const sectionStyle = "position-relative z-2"
 const txtStyle = "d-flex flex-column justify-content-center text-center text-lg-start"
 const logoStyle = "purposeLogo"
 

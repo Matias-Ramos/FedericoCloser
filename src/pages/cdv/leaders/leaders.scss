@@ -3,6 +3,7 @@
 #leaders{
     h2{
         color: white;
+        text-shadow: 1px 1px 2px black;
     }
     #blueBackg{
         z-index: 1;
@@ -10,12 +11,11 @@
         width: 3rem;
         height: calc(1.8rem + .9vw);
         width: 100%;
-        background: linear-gradient(90deg, rgba(66, 84, 188, 1) 0%, rgba(33, 42, 94, 1) 100%);
+        background: url('/backgrounds/blue_bckg_2.png');
         position: absolute;
     }
-    .greyBorder {
+    .cardBorder {
         box-shadow: rgba(66, 84, 188, 0.12) 0px 1px 3px, rgba(66, 84, 188, 0.24) 0px 1px 2px;
-        height: 100%;
     }
 }
 

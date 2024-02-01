@@ -1,4 +1,4 @@
-export type Member = {
+export type Member_T = {
     name: string,
     picture: string,
     exp: string,

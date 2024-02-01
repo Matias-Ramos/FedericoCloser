@@ -1,6 +1,6 @@
-import { Member } from "../../../components/socMediaMapper/MembersType";
+import { Member_T } from "../../../components/socMediaMapper/MembersType";
 
-const federico: Member = {
+const federico: Member_T = {
     name: "Federico Santos",
     picture: "/federico/federico1.jpg",
     exp: "Experimentado vendedor con más de 10 años de éxito en estrategias innovadoras y cierres estratégicos, especializado en construir relaciones sólidas y superar objetivos.",
@@ -13,6 +13,6 @@ const federico: Member = {
 };
 
 
-const fedeArr: Member[] = [ federico ];
+const fedeArr: Member_T[] = [ federico ];
 
 export default fedeArr;

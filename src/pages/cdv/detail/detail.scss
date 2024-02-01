@@ -6,8 +6,9 @@ $border_radius: 6px;
     border-radius: $border_radius;
 }
 .lightBlueBorder {
-    border: 4px solid #AEB6E3;
+    border: 2px solid #e9ecef;
     border-radius: $border_radius;
+    border-style: outset;
 }
 .blueBorder {
     border: 6px solid $blue_logo;

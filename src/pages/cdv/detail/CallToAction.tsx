@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap"
 import CtaBtn from "../../../components/CtaBtn";
 import Chevron from "../../../components/chevron/Chevron";
 // Styles
-const rowStyle= "w-100 align-items-center py-4 py-lg-0 bg-light blueBorder"
+const rowStyle= "align-items-center py-4 py-lg-0 bg-light w-100 blueBorder"
 const spanStyle= "d-block text-center"
 const ctaStyle = "d-flex justify-content-center"
 
@@ -28,7 +28,7 @@ const CallToAction = () => (
                     handleClick={() => { }}
                 />
             </Col>
-
         </Row>
+
 )
 export default CallToAction

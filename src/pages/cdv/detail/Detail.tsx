@@ -18,23 +18,23 @@ const ctaStyle = 'd-flex align-items-center justify-content-center mt-4'
 const Detail = () => {
   return (
     <section id="detail" style={glassmorphism}>
-        <Container >
-            <Row className={rowStyle}>
+      <Container >
+        <Row className={rowStyle}>
 
-              <Col xs={12} lg={7} className={txtStyle}>
-                <Text />
-              </Col>
+          <Col xs={12} lg={7} className={txtStyle}>
+            <Text />
+          </Col>
 
-              <Col xs={12}>
-                <CardMapper />
-              </Col>
+          <Col xs={12}>
+            <CardMapper />
+          </Col>
 
-              <Col xs={12} className={ctaStyle}>
+          <Col xs={12} className={ctaStyle}>
                 <CallToAction />
-              </Col>
+          </Col>
 
-            </Row>
-        </Container>
+        </Row>
+      </Container>
     </section>
   )
 }

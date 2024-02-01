@@ -1,0 +1,31 @@
+@import '../../../styles/colors.scss';
+
+#leaders{
+    h2{
+        color: white;
+    }
+    #blueBackg{
+        z-index: 1;
+        left: 0;
+        width: 3rem;
+        height: calc(1.8rem + .9vw);
+        width: 100%;
+        background: linear-gradient(90deg, rgba(66, 84, 188, 1) 0%, rgba(33, 42, 94, 1) 100%);
+        position: absolute;
+    }
+    .greyBorder {
+        box-shadow: rgba(66, 84, 188, 0.12) 0px 1px 3px, rgba(66, 84, 188, 0.24) 0px 1px 2px;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #blueBackg{
+        clip-path: polygon(2% 0, 100% 0, 100% 100%, 3% 100%);
+    }
+}
+@media only screen and (min-width: 992px){
+    #blueBackg{
+        clip-path: polygon(5% 0, 100% 0, 100% 100%, 6% 100%);
+    }
+}

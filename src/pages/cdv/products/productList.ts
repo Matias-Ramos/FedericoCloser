@@ -6,7 +6,7 @@ type Product = {
 const campamento: Product = {
     name: "Campamento de Ventas",
     description: "Potencia a tu equipo las 24 horas del día, los 7 días de la semana con acceso ilimitado a los cursos disponibles BAJO DEMANDA para ayudar a encontrar nuevos negocios en un entorno competitivo.",
-    image: "/logo.png"
+    image: "/products/logo.png"
 }
 const mentoriaCesar: Product = {
     name: "Mentoría con Cesar",

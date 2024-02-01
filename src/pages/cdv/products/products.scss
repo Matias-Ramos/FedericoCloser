@@ -1,34 +1,66 @@
+@import '../sharedStyles.scss';
+
 #products {
 
-    .productRow {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+    .h2col{
+
+        margin-bottom: 8rem;
+        h2{
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+    }
+    .blueBackg{
+        @extend .blueBackg_base;
     }
 
-
-    .productRow:nth-child(odd) {
-        background-color: #e9ecef;
+    hr{
+        margin: 8rem 0px;
     }
 
-    .productRow:nth-child(even) {
-        background-color: #f8f9fa;
-    }
 }
 
 @media only screen and (min-width: 992px) {
     #products {
+        position: relative;
+        
+        .blueBackg{
+            clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
+            height: calc(1.8rem + .9vw);
+        }
 
+
+        // hide last hr
+        .productRow:last-child{
+            hr{
+                display: none;
+            }
+        }
+
+
+        .productRow{
+            // <hr>
+            .productCol:nth-child(3) {
+                order: 3;
+            }
+
+
+            
+
+        }
         .productRow:nth-child(odd) {
-
+            
             // txt
-            .productCol:nth-child(even) {
+            .productCol:nth-child(2) {
                 order: 1;
             }
 
             // right images
-            .productCol:nth-child(odd) {
+            .productCol:nth-child(1) {
                 order: 2;
             }
+
+
         }
 
         button{
@@ -37,8 +69,19 @@
     }
 }
 @media only screen and (max-width: 991px) {
-    #products button{
-        width: 50%;
-        margin: 1rem auto 0px auto;
+    #products {
+        .h2col{
+            position: relative;
+
+            .blueBackg{
+                clip-path: polygon(0 0, 98% 0, 97% 100%, 0% 100%);
+                height: 100%;
+            }
+        }
+        button{
+            width: 50%;
+            margin: 1rem auto 0px auto;
+        }
     }
 }
+

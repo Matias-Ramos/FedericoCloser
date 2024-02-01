@@ -8,7 +8,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 // Styles
 const h2rowStyle = "mb-3"
 const h2style = "m-0 z-2 position-relative";
-const sectionStyle = "position-relative";
 
 
 const Leaders = () => {
@@ -21,11 +20,11 @@ const Leaders = () => {
     };
 
     return (
-        <section id="leaders" className={sectionStyle}>
+        <section id="leaders">
             <Container>
                 <Row className={h2rowStyle}>
-                    <Col>
-                        <div id="blueBackg"></div>
+                    <Col className="h2col">
+                        <div className="blueBackg"></div>
                         <h2 className={h2style}>
                             Líderes del Campamento
                         </h2>

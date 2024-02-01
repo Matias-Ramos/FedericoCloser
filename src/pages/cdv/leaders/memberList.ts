@@ -14,7 +14,7 @@ const cesar: Member_T = {
 
 const tino: Member_T = {
     name: "Tino Mossu",
-    picture: "/leaders/tino.jpg",
+    picture: "/leaders/tino.png",
     exp: "El camino de Teo hacia el liderazgo está marcado por años perfeccionando técnicas de venta. Sus agudas percepciones sobre las tendencias del mercado y las necesidades del cliente no solo han impulsado su éxito sino que lo han convertido en un mentor invaluable.",
     socialMedia: {
         fb: "https://www.facebook.com/",

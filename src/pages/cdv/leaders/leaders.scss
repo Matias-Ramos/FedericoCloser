@@ -1,31 +1,39 @@
 @import '../../../styles/colors.scss';
+@import '../sharedStyles.scss';
 
 #leaders{
     h2{
         color: white;
         text-shadow: 1px 1px 2px black;
     }
-    #blueBackg{
-        z-index: 1;
-        left: 0;
-        width: 3rem;
-        height: calc(1.8rem + .9vw);
-        width: 100%;
-        background: url('/backgrounds/blue_bckg_2.png');
-        position: absolute;
+    .blueBackg{
+        @extend .blueBackg_base;
     }
     .cardBorder {
         box-shadow: rgba(66, 84, 188, 0.12) 0px 1px 3px, rgba(66, 84, 188, 0.24) 0px 1px 2px;
     }
 }
 
+
 @media only screen and (max-width: 991px){
-    #blueBackg{
-        clip-path: polygon(2% 0, 100% 0, 100% 100%, 3% 100%);
+    #leaders{
+        .h2col{
+            position: relative;
+
+            .blueBackg{
+                clip-path: polygon(2% 0, 100% 0, 100% 100%, 3% 100%);
+                height: 100%;
+            }
+        }
     }
 }
 @media only screen and (min-width: 992px){
-    #blueBackg{
-        clip-path: polygon(5% 0, 100% 0, 100% 100%, 6% 100%);
+    #leaders{
+        position:relative;
+
+            .blueBackg{
+                clip-path: polygon(5% 0, 100% 0, 100% 100%, 6% 100%);
+                height: calc(1.8rem + .9vw);
+            }
     }
 }

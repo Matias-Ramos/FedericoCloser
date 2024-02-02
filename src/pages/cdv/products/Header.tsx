@@ -1,7 +1,7 @@
 // BTS
 import { Row, Col } from "react-bootstrap";
 // Styles
-const h2style = "m-0 z-2 position-relative";
+const h2style = "z-2 w-100 d-block position-relative";
 
 const Header = () => (
     <Row>

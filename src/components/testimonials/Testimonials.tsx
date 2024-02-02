@@ -7,7 +7,7 @@ import { Testimonial } from '../../classes/testimonialType';
 
 // Styling
 const h2rowStyling = 'd-flex justify-content-center'
-const h2containerStyling = 'd-flex align-items-end justify-content-between mb-3';
+const h2containerStyling = 'd-flex align-items-end justify-content-between mb-3 h2col';
 const logoStyle = "testimonialLogo"
 // Grid sys.
 const breakpoints = {  md: 10, lg: 12, xl: 10, xxl: 9 };
@@ -21,7 +21,7 @@ const Testimonials = ({testimonialList}: {testimonialList: Testimonial[]}) => (
                     <Header />
                 </Col>
 
-                <Col {...breakpoints}>
+                <Col {...breakpoints} className='mt-4 mt-lg-3 '>
                     <Accordion>
                         <CardMapper testimonialList={testimonialList} />
                     </Accordion>

@@ -5,9 +5,9 @@ import CardsMapper from "./CardsMapper";
 // Dinamic styles
 import classNames from "classnames";
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Header from "./Header";
 // Styles
 const h2rowStyle = "mb-3"
-const h2style = "m-0 z-2 position-relative";
 
 
 const Leaders = () => {
@@ -23,12 +23,7 @@ const Leaders = () => {
         <section id="leaders">
             <Container>
                 <Row className={h2rowStyle}>
-                    <Col className="h2col">
-                        <div className="blueBackg"></div>
-                        <h2 className={h2style}>
-                            Líderes del Campamento
-                        </h2>
-                    </Col>
+                    <Header />
                 </Row>
                 <Row className={getCardsClasses()}>
                     <CardsMapper />

@@ -12,9 +12,6 @@ body {
 main{
   font-family: 'Rubik', sans-serif;
 }
-h1 {
-  margin-bottom: 0!important;
-}
 
 h2, h3 {
   font-size: calc(1.725rem + .9vw);
@@ -23,6 +20,7 @@ h2, h3 {
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0!important;
 }
 
 section {

@@ -1,7 +1,7 @@
 @import '../../../styles/colors.scss';
 @import '../sharedStyles.scss';
 
-#leaders{
+#testimonials{
     h2{
         color: white;
         text-shadow: 1px 1px 2px black;
@@ -9,24 +9,28 @@
     .blueBackg{
         @extend .blueBackg_base;
     }
-    .cardBorder {
-        box-shadow: rgba(66, 84, 188, 0.12) 0px 1px 3px, rgba(66, 84, 188, 0.24) 0px 1px 2px;
-    }
 }
 
+
+@media only screen and (max-width: 991px){
+    #testimonials{
+        .h2col{
+            position: relative;
+
+            .blueBackg{
+                height: 100%;
+            }
+        }
+    }
+}
 @media only screen and (min-width: 992px){
-    #leaders{
+    #testimonials{
         position:relative;
-        padding-top: 10rem;
+        padding-top: 7.5rem;
 
             .blueBackg{
                 clip-path: polygon(5% 0, 100% 0, 100% 100%, 6% 100%);
                 height: calc(1.8rem + .9vw);
             }
-    }
-}
-@media only screen and (max-width: 991px){
-    #leaders{
-        padding-bottom: 1rem;
     }
 }

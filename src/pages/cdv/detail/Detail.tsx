@@ -5,7 +5,7 @@ import CallToAction from './CallToAction';
 import CardMapper from './CardMapper';
 import Text from './Text';
 // Styling
-const rowStyle = 'd-flex justify-content-start';
+const rowStyle = 'd-flex justify-content-start gap-lg-4';
 const glassmorphism = {
   background: 'rgba(74, 144, 226, 0)',
   boxShadow: '0 3px 5px 0 rgba(31, 38, 135, 0.37)',

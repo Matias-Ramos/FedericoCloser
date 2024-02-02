@@ -7,7 +7,7 @@ import { Testimonial } from '../../classes/testimonialType';
 
 // Styling
 const entityStyling = { display: "block", width: "100%", marginLeft: "25px" }
-const cardStyling = { color: "white", backgroundColor: "rgba(0, 80, 157,0.8)", textShadow: "2px 2px 4px #281e2d", marginBottom: "1rem" }
+const cardStyling = {  backgroundColor: "rgba(255, 255, 255,0.1)", textShadow: "2px 2px 4px white", marginBottom: "1rem" }
 
 const CardMapper = ({testimonialList} : {testimonialList: Testimonial[]}) => {
     return (

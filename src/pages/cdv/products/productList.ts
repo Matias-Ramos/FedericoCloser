@@ -19,7 +19,7 @@ const recruitmentPack: Product = {
     image: "/products/recruitmentPack.jpeg"
 }
 const dragonChat: Product = {
-    name: "Dragon Chat",
+    name: "DragonChat",
     description: "DragonChat revoluciona las ventas al integrar inteligencia artificial para analizar patrones de conversación, proporcionando a los equipos comerciales información valiosa para cerrar tratos más efectivos. Con funciones intuitivas y analíticas avanzadas, DragonChat impulsa el rendimiento y la eficiencia en el mundo de las ventas.",
     image: "/products/dragonChat.png"
 }

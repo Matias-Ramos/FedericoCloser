@@ -3,19 +3,41 @@
 #products {
 
     .h2col{
-
-        margin-bottom: 8rem;
-        h2{
+        h2 {
             color: white;
             text-shadow: 1px 1px 2px black;
         }
-    }
-    .blueBackg{
-        @extend .blueBackg_base;
+    
+        .blueBackg {
+            @extend .blueBackg_base;
+        }
     }
 
-    hr{
-        margin: 8rem 0px;
+
+    .productName {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    // hide last hr
+    .productRow:last-child {
+        hr {
+            display: none;
+        }
+    }
+
+    .backgroundText {
+        position: absolute;
+        top: -3%;
+        left: 10%;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.04);
+        font-size: 8rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        z-index: 1;
+        overflow: hidden;
+        text-wrap: nowrap;
     }
 
 }
@@ -23,65 +45,61 @@
 @media only screen and (min-width: 992px) {
     #products {
         position: relative;
-        
-        .blueBackg{
-            clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
-            height: calc(1.8rem + .9vw);
-        }
 
+        .h2col{
+            margin-bottom: 8rem;
 
-        // hide last hr
-        .productRow:last-child{
-            hr{
-                display: none;
+            .blueBackg {
+                clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
+                height: calc(1.8rem + .9vw);
             }
         }
 
+        .hrCol {
+            order: 3;
 
-        .productRow{
-            // <hr>
-            .productCol:nth-child(3) {
-                order: 3;
+            hr {
+                margin: 8rem 0px;
             }
-
-
-            
-
         }
+
+        button {
+            width: 50%;
+        }
+
         .productRow:nth-child(odd) {
-            
-            // txt
-            .productCol:nth-child(2) {
+
+            .txtCol {
                 order: 1;
             }
 
             // right images
-            .productCol:nth-child(1) {
+            .imgCol {
                 order: 2;
             }
-
-
-        }
-
-        button{
-            width: 25%;
         }
     }
 }
+
 @media only screen and (max-width: 991px) {
     #products {
-        .h2col{
+        .h2col {
             position: relative;
+            margin-bottom: 4rem;
 
-            .blueBackg{
+            .blueBackg {
                 clip-path: polygon(0 0, 98% 0, 97% 100%, 0% 100%);
                 height: 100%;
             }
         }
-        button{
-            width: 50%;
+
+        hr {
+            margin: 4rem 0px;
+        }
+
+        button {
+            width: 75%;
             margin: 1rem auto 0px auto;
         }
     }
 }
-

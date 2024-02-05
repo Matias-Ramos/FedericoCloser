@@ -5,7 +5,7 @@ type Product = {
 }
 const campamento: Product = {
     name: "Campamento de Ventas",
-    description: "Potencia a tu equipo las 24 horas del día, los 7 días de la semana con acceso ilimitado a los cursos disponibles BAJO DEMANDA para ayudar a encontrar nuevos negocios en un entorno competitivo.",
+    description: "Duplica tu cierre de ventas y facturación en 21 días (o menos) con la metodología de 5 pasos.",
     image: "/products/logo.png"
 }
 const mentoriaCesar: Product = {
@@ -20,12 +20,12 @@ const recruitmentPack: Product = {
 }
 const dragonChat: Product = {
     name: "DragonChat",
-    description: "DragonChat revoluciona las ventas al integrar inteligencia artificial para analizar patrones de conversación, proporcionando a los equipos comerciales información valiosa para cerrar tratos más efectivos. Con funciones intuitivas y analíticas avanzadas, DragonChat impulsa el rendimiento y la eficiencia en el mundo de las ventas.",
+    description: "Software que te permite incrementar las ventas de tu negocio mediante automatizaciones de Whatsapp. Poder escribir a +100 personas al mismo tiempo, esto es lo que te permitirá el DragonChat.",
     image: "/products/dragonChat.png"
 }
 const analytics: Product = {
     name: "Analytics",
-    description: "Analytics transforma los datos de ventas en perspicaces visualizaciones en tiempo real, brindando a las empresas una visión clara de su rendimiento. Desde el seguimiento de leads hasta la optimización de estrategias, Analytics es la herramienta esencial para impulsar el éxito en el competitivo mundo de las ventas.",
+    description: "Accede a 20 llamadas reales de venta analizadas y conoce el paso a paso que usan los closers profesionales para llevar a un prospecto de 'Solo quiero información' a 'Dónde pago'.",
     image: "/products/analytics.png"
 }
 

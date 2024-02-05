@@ -4,10 +4,10 @@ import { Container, Row, Col } from "react-bootstrap"
 import Header from "./Header"
 import Metrics from "./Metrics"
 import CtaBtn from "../../../components/CtaBtn"
-import fedeImg from "/federico/federico1.jpg"
+import fedeImg from "/federico/profile-pic_2.png"
 // Styles
 const rowStyle="justify-content-around"
-const txtStyle = "d-flex flex-column justify-content-evenly"
+const txtStyle = "d-flex flex-column justify-content-evenly my-4 my-lg-0"
 
 const About = () => {
   return (

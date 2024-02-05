@@ -1,4 +1,4 @@
-const containerStyle = "d-flex gap-3 flex-nowrap my-3";
+const containerStyle = "d-flex gap-3 flex-nowrap my-4";
 
 const Metrics = () => (
     <div className={containerStyle} id="metrics">

@@ -23,7 +23,7 @@
 
 @media only screen and (min-width: 992px) {
     #purpose {
-        padding: 15rem 0px 7rem 0px;
+        padding: 15rem 0px 15rem 0px;
         position: relative;
 
         #purposeBckg {
@@ -42,7 +42,7 @@
             height: 400px;
             position: absolute;
             text-align: center;
-            top: 60%;
+            top: 50%;
             transform: translateY(-50%);
         }
     }

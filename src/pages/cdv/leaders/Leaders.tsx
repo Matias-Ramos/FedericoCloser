@@ -1,5 +1,5 @@
 // BTS
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 // Components
 import CardsMapper from "./CardsMapper";
 // Dinamic styles

@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import CardMapper from './CardMapper';
 import Header from './Header';
 import Logo from '../Logo';
-import { Testimonial } from '../../classes/testimonialType';
+import { Testimonial_T } from '../../classes/testimonialType';
 
 // Styling
 const h2rowStyling = 'd-flex justify-content-center'
@@ -13,7 +13,7 @@ const logoStyle = "testimonialLogo"
 const breakpoints = {  md: 10, lg: 12, xl: 10, xxl: 9 };
 
 
-const Testimonials = ({testimonialList}: {testimonialList: Testimonial[]}) => (
+const Testimonials = ({testimonialList}: {testimonialList: Testimonial_T[]}) => (
     <section id="testimonials">
         <Container>
             <Row className={h2rowStyling}>

@@ -1,10 +1,10 @@
 import CarouselBts from 'react-bootstrap/Carousel';
-import { Testimonial } from './testimonialList';
+import { Testimonial_T } from '../../classes/testimonialType'
 // Style
 import useMediaQuery from '@mui/material/useMediaQuery';
 import classNames from "classnames";
 
-const Carousel = (({ testimonial }: {testimonial : Testimonial}) => {
+const Carousel = (({ testimonial }: {testimonial : Testimonial_T}) => {
    
         const isMobile = useMediaQuery('(max-width:991px)');
         const getImgClasses = () => {

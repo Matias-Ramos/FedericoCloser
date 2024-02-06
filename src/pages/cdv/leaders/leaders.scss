@@ -2,6 +2,7 @@
 @import '../sharedStyles.scss';
 
 #leaders{
+
     h2{
         color: white;
         text-shadow: 1px 1px 2px black;
@@ -11,6 +12,7 @@
     }
     .cardBorder {
         box-shadow: rgba(66, 84, 188, 0.12) 0px 1px 3px, rgba(66, 84, 188, 0.24) 0px 1px 2px;
+        background-image: url("/backgrounds/groovepaper.png");
     }
 }
 
@@ -20,7 +22,7 @@
         padding-top: 10rem;
 
             .blueBackg{
-                clip-path: polygon(5% 0, 100% 0, 100% 100%, 6% 100%);
+                clip-path: polygon(1% 0, 100% 0, 100% 100%, 2% 100%);
                 height: calc(1.8rem + .9vw);
             }
     }

@@ -11,6 +11,7 @@ const glassmorphism = {
   boxShadow: '0 3px 5px 0 rgba(31, 38, 135, 0.37)',
   backdropFilter: 'blur(3px)',
   border: '1px solid rgba(255, 255, 255, 0.18)',
+  borderTop: '1px solid rgba(215, 215, 215, 0.6)',
 };
 const txtStyle = "d-flex flex-column justify-content-center"
 const ctaStyle = 'd-flex align-items-center justify-content-center mt-4'

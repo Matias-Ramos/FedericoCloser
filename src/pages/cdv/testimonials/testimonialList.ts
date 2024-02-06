@@ -1,6 +1,6 @@
-import { Testimonial } from "../../../classes/testimonialType"
+import { Testimonial_T } from "../../../classes/testimonialType"
 
-const testimonialOne = new Testimonial(
+const testimonialOne = new Testimonial_T(
   'Bienes raices',
   [
     "/testimonials/Afiliado_de_Hotmark/1.png",
@@ -9,7 +9,7 @@ const testimonialOne = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/4.png",
     "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
-const testimonialTwo = new Testimonial(
+const testimonialTwo = new Testimonial_T(
   'Afiliado de Hotmark',
   [
     "/testimonials/Afiliado_de_Hotmark/1.png",
@@ -18,7 +18,7 @@ const testimonialTwo = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/4.png",
     "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
-const testimonialThree = new Testimonial(
+const testimonialThree = new Testimonial_T(
   'Joven de 16 años',
   [
     "/testimonials/Afiliado_de_Hotmark/1.png",
@@ -27,7 +27,7 @@ const testimonialThree = new Testimonial(
     "/testimonials/Afiliado_de_Hotmark/4.png",
     "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
-const testimonialFour = new Testimonial(
+const testimonialFour = new Testimonial_T(
   'Concesionaria de autos',
   [
     "/testimonials/Afiliado_de_Hotmark/1.png",

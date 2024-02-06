@@ -8,9 +8,14 @@ body {
   font-size: 1.15rem;
   line-height: 1.7;
   background-color: white;
+  overflow-x: hidden;
 }
 main{
   font-family: 'Rubik', sans-serif;
+}
+
+h1{
+  margin-bottom: 0!important;
 }
 
 h2, h3 {
@@ -20,7 +25,7 @@ h2, h3 {
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 0!important;
+  margin-bottom: 0;
 }
 
 section {

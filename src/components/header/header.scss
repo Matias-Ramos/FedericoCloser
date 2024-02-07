@@ -13,7 +13,16 @@ header {
         left: 0;
         height: auto;
         width: 100%;
+        z-index: 1;
     }
+
+    #animatedTriangles{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -26,6 +35,11 @@ header {
             height: 100%;
         }
 
+        #animatedTriangles{
+            height: 100%;
+            width: auto;
+        }
+
         button {
             width: 100%;
             height: 2.5rem !important;
@@ -35,5 +49,11 @@ header {
 
             }   
         }
+    }
+}
+@media only screen and (min-width: 992px) {
+    #animatedTriangles{
+        height: auto;
+        width: 100%;
     }
 }

@@ -4,7 +4,7 @@ import { Member_T } from "../../../components/socMediaMapper/MembersType";
 import SocMediaMapper from '../../../components/socMediaMapper/SocMediaMapper';
 // Style
 const containerStyle = "d-flex flex-column justify-content-between h-100 cardBorder";
-const legendStyle = 'd-flex flex-column h-100 justify-content-between p-3';
+const legendStyle = 'd-flex flex-column h-100 justify-content-between p-3 legend';
 const nameStyle = "text-center mt-3 fw-bold"
 
 const Card = ({ member }: { member: Member_T }) => (

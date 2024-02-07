@@ -4,6 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Logo from '../Logo';
 import BtnGroup from './BtnGroup';
 import background from '/backgrounds/blue_bckg.png';
+import animatedTriangles from '/backgrounds/animated_triangles.svg';
+
 // Style
 const rowStyle='d-flex justify-content-center justify-content-lg-between'
 const btnGroupColStyle = 'd-flex justify-content-center flex-column ps-lg-5'
@@ -12,9 +14,9 @@ const btnGroupSpanStyle = 'd-block text-center text-lg-start d-md-inline '
 const NavHeader = () => {
   return (
     <header >
-
         <img id="background" src={background} alt="background" />
-
+        <img id="animatedTriangles" src={animatedTriangles} alt="background animation triangles" />
+        
         <Container>
             <Row className={rowStyle}>
 

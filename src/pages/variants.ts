@@ -24,3 +24,19 @@ export const fadeIn = (direction: string, delay: number) => {
         },
     };
 };
+
+export const btnAnimation = {
+    initial : {
+        scale: 1 
+    },
+
+    whileInView: { 
+        scale: [1, 1.03, 1, 1.03, 1] 
+    },
+
+    transition: {
+        delay: 0.4,
+        duration: 0.75,
+        ease: "easeInOut" 
+    }
+}

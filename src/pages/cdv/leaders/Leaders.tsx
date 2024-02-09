@@ -2,10 +2,10 @@
 import { Container, Row } from "react-bootstrap";
 // Components
 import CardsMapper from "./CardsMapper";
+import Header from "./Header";
 // Dinamic styles
 import classNames from "classnames";
 import useMediaQuery from '@mui/material/useMediaQuery';
-import Header from "./Header";
 // Styles
 const h2rowStyle = "mb-3"
 

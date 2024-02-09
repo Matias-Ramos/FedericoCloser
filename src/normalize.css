@@ -4,10 +4,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  overflow-x: hidden;
+}
 body {
   font-size: 1.15rem;
   line-height: 1.7;
   background-color: white;
+  position: relative;
   overflow-x: hidden;
 }
 main{

@@ -1,4 +1,4 @@
-export const fadeIn = (direction: string, delay: number) => {
+export const fadeIn = (direction: string) => {
     return {
         hidden: {
             y: direction === 'up' ? 80 : direction === 'down' ? -80 : 0,
@@ -7,7 +7,6 @@ export const fadeIn = (direction: string, delay: number) => {
             transition: {
                 type: 'tween',
                 duration: 1.5,
-                delay: delay,
                 ease: [0.25, 0.6, 0.3, 0.8],
             },
         },
@@ -18,7 +17,6 @@ export const fadeIn = (direction: string, delay: number) => {
             transition: {
                 type: 'tween',
                 duration: 1.4,
-                delay: delay,
                 ease: [0.25, 0.25, 0.25, 0.75],
             },
         },

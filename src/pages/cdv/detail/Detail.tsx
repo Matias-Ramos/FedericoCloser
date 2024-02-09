@@ -8,7 +8,7 @@ import Text from './Text';
 const rowStyle = 'd-flex justify-content-start gap-lg-4';
 const glassmorphism = {
   background: 'rgba(74, 144, 226, 0)',
-  boxShadow: '0 3px 5px 0 rgba(31, 38, 135, 0.37)',
+  // boxShadow: '0 3px 5px 0 rgba(31, 38, 135, 0.37)',
   backdropFilter: 'blur(3px)',
   border: '1px solid rgba(255, 255, 255, 0.18)',
   borderTop: '1px solid rgba(215, 215, 215, 0.6)',

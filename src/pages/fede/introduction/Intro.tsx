@@ -1,7 +1,7 @@
 // BTS
 import { Container, Row, Col } from "react-bootstrap"
 // Components
-import CtaBtn from "../../../components/CtaBtn"
+import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 import SocMediaMapper from "../../../components/socMediaMapper/SocMediaMapper"
 // Data
 import fedeArr from "./fedeData"
@@ -22,7 +22,7 @@ const Intro = () => {
 
             <p>{fedeArr[0].exp}</p>
 
-            <CtaBtn text="Hablemos!" variant="contained" handleClick={()=>{}} />
+            <CtaBtn text="Hablemos!" handleClick={()=>{}} />
 
             <SocMediaMapper member={fedeArr[0]}/>
 

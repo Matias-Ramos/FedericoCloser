@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 // Components
 import Header from "./Header"
 import Metrics from "./Metrics"
-import CtaBtn from "../../../components/CtaBtn"
+import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 import fedeImg from "/federico/profile-pic_2.png"
 // Styles
 const rowStyle="justify-content-around"
@@ -20,7 +20,7 @@ const About = () => {
                 <Col xs={12} lg={7} xl={6} xxl={5} className={txtStyle}>
                     <Header />
                     <Metrics />
-                    <CtaBtn text="Hablemos!" variant="contained" handleClick={()=>{}} />
+                    <CtaBtn text="Hablemos!" handleClick={()=>{}} />
                 </Col>
             </Row>
         </Container>

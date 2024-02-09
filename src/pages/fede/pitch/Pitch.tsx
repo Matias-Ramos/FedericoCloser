@@ -1,7 +1,7 @@
 // BTS
 import { Container, Row, Col } from "react-bootstrap"
 // Components
-import CtaBtn from "../../../components/CtaBtn"
+import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 // Style
 const rowStyle="d-flex justify-content-center";
 const colStyle="d-flex flex-column";
@@ -17,7 +17,7 @@ const Pitch = () => {
                         Descubre cómo nuestras técnicas de ventas pueden impulsar tu éxito.<br />
                         ¡Conversemos y transformemos juntos tu carrera!
                     </span>
-                    <CtaBtn text="Hablemos!" variant="contained" handleClick={()=>{}} />
+                    <CtaBtn text="Hablemos!" handleClick={()=>{}} />
                 </Col>
             </Row>
         </Container>

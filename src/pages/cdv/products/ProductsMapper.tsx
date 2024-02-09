@@ -2,7 +2,7 @@
 import { Col, Row } from "react-bootstrap";
 // Data
 import productsList from "./productList";
-import CtaBtn from "../../../components/CtaBtn";
+import CtaBtn from "../../../components/ctaBtn/CtaBtn";
 // Style
 const rowStyle = "productRow justify-content-center position-relative";
 const imgColStyle = "d-flex justify-content-center imgCol z-2";
@@ -37,11 +37,7 @@ const ProductsMapper = () => {
                             {product.description}
                         </span>
 
-                        <CtaBtn
-                            text="Adquirir"
-                            variant="contained"
-                            handleClick={() => { }} 
-                        />
+                        <CtaBtn text="Adquirir" handleClick={() => { }} />
                     </Col>
                     <Col className="hrCol" xs={12}>
                         <hr />

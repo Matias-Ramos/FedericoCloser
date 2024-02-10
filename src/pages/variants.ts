@@ -23,3 +23,26 @@ export const fadeIn = (direction: string) => {
     };
 };
 
+
+// staggeredFadeIn
+const container = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.5
+        }
+    }
+}
+const item = {
+    hidden: { opacity: 0, y: -25 },
+    show: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            type: "tween",
+            duration: 0.4,
+        }
+    }
+}
+export const staggerFadeIn = { container, item }

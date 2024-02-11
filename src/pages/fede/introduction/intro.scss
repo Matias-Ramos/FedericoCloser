@@ -4,18 +4,19 @@
     // Text
     .introCol:first-child {
 
-        h2,
-        span {
+        h2{
             font-weight: bold;
+        }
+
+        h2, span {
             margin-bottom: 0;
         }
 
-        #titles {
+        #titles{
 
             font-size: calc(1.325rem + .9vw);
 
-            h2,
-            span:nth-child(1) {
+            h2, span:nth-child(1) {
                 display: block;
             }
 
@@ -24,7 +25,6 @@
             }
         }
     }
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -68,7 +68,7 @@
             }
 
             button {
-                width: 25%;
+                width: 33%;
             }
         }
 

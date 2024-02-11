@@ -10,18 +10,15 @@
     .blueBackg{
         @extend .blueBackg_base;
     }
-    .cardBorder {
-        box-shadow: rgba(66, 84, 188, 0.12) 0px 1px 3px, rgba(66, 84, 188, 0.24) 0px 1px 2px;
-        .legend{
-            border-top: 1px solid #e8e8e8;
-        }
+    .cardBorder .legend{
+        border-top: 1px solid #e8e8e8;
     }
 }
 
 @media only screen and (min-width: 992px){
     #leaders{
         position:relative;
-        padding-top: 10rem;
+        padding: 6rem 0px 1rem 0px;
 
             .blueBackg{
                 clip-path: polygon(1% 0, 100% 0, 100% 100%, 2% 100%);

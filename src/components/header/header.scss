@@ -1,6 +1,8 @@
 header {
-    position: relative;
+    padding: 1rem 0px;
     color: #fafafa;
+    position: relative;
+    z-index: 1;
 
     .container {
         position: relative;
@@ -52,8 +54,13 @@ header {
     }
 }
 @media only screen and (min-width: 992px) {
-    #animatedTriangles{
-        height: auto;
-        width: 100%;
+    header{
+        .logo{
+            width: 85%;
+        }
+        #animatedTriangles{
+            height: auto;
+            width: 100%;
+        }
     }
 }

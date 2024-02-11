@@ -36,10 +36,7 @@ section {
   padding: 6rem 0px;
 }
 
-header{
-  padding: 2rem 0px;
-  z-index: 1;
-}
+
 main{
   position: relative;
   z-index: 2;

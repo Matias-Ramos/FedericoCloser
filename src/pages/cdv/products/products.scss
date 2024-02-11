@@ -51,7 +51,6 @@
         position: relative;
 
         .h2col{
-            margin-bottom: 8rem;
 
             .blueBackg {
                 clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
@@ -63,7 +62,7 @@
             order: 3;
 
             hr {
-                margin: 8rem 0px;
+                margin: 6rem 0px;
             }
         }
 
@@ -71,9 +70,18 @@
             width: 50%;
         }
 
-        .productRow img{
-            height: 100%;
+        .productRow {
+            margin-top: 1rem;
+            
+            &:nth-child(2){
+                margin-top: 6rem;
+            }
+
+            img{
+                height: 100%;
+            }
         }
+        
 
         .productRow:nth-child(odd) {
 
@@ -114,5 +122,10 @@
             width: 60%;
             margin: 1rem auto 0px auto;
         }
+    }
+}
+@media only screen and (min-width: 992px) {
+    #products {
+        padding: 2rem 0px 5rem 0px;
     }
 }

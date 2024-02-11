@@ -1,4 +1,4 @@
-#testimonials{
+#testimonials {
     position: relative;
     background-image: url('/backgrounds/white_bckg.png');
     border-top: 1px solid #e9ecef;
@@ -11,7 +11,7 @@
         width: 30px;
         height: 30px;
     }
-    
+
     .testimonialLogo {
         position: absolute;
         top: 100%;
@@ -21,9 +21,12 @@
         justify-content: center;
     }
 }
+
 @media only screen and (min-width: 992px) {
-    #testimonials{
-        padding-bottom: 8.5rem;
+
+    #testimonials {
+        padding: 4.5rem 0px 7.5rem 0px;
+
         .testimonialLogo img {
             width: 75%
         }

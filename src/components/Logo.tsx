@@ -6,7 +6,7 @@ const Logo = ({ color } : { color: string }) => (
         src={ 
             color=="white" ? whiteLogo : blueLogo
         }
-        className='mw-100'
+        className='mw-100   logo'
         alt="logo del Campamento de ventas" 
     />
     

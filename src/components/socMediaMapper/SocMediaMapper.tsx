@@ -26,7 +26,7 @@ const SocMediaMapper = ({ member }: { member: Member_T }) => (
       >
         {social === 'fb' &&
           <motion.div
-            variants={staggerFadeIn.item}
+            variants={staggerFadeIn.item("up", "spring")}
             viewport={{ once: true }}
           >
             <FaFacebook />
@@ -34,7 +34,7 @@ const SocMediaMapper = ({ member }: { member: Member_T }) => (
         }
         {social === 'tiktok' &&
           <motion.div
-            variants={staggerFadeIn.item}
+            variants={staggerFadeIn.item("up", "spring")}
             viewport={{ once: true }}
           >
             <FaTiktok />
@@ -42,7 +42,7 @@ const SocMediaMapper = ({ member }: { member: Member_T }) => (
         }
         {social === 'twitter' &&
           <motion.div
-            variants={staggerFadeIn.item}
+            variants={staggerFadeIn.item("up", "spring")}
             viewport={{ once: true }}
           >
             <FaXTwitter />
@@ -50,7 +50,7 @@ const SocMediaMapper = ({ member }: { member: Member_T }) => (
         }
         {social === 'instagram' &&
           <motion.div
-            variants={staggerFadeIn.item}
+            variants={staggerFadeIn.item("up", "spring")}
             viewport={{ once: true }}
           >
             <FaInstagram />

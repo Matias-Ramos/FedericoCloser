@@ -21,7 +21,7 @@ const CardMapper = ({ testimonialList }: { testimonialList: Testimonial_T[] }) =
     >
         {testimonialList.map((testimonial, index) => (
             <motion.div
-                variants={staggerFadeIn.item}
+                variants={staggerFadeIn.item("up", "tween")}
                 viewport={{ once: true }}
                 key={index}
             >

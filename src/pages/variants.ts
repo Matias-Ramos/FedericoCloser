@@ -34,14 +34,21 @@ const container = {
         }
     }
 }
-const item = {
-    hidden: { opacity: 0, y: -25 },
-    show: {
-        opacity: 1,
-        y: 0,
-        transition: {
-            type: "tween",
-            duration: 0.3,
+
+const item = (direction: string, type: string) => {
+    return {
+        hidden: {
+            opacity: 0,
+            y: direction === 'up' ? 25 : direction === 'down' ? -25 : 0,
+        },
+        show: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                type: type,
+                duration: 0.3,
+                damping: 7, // spring only
+            }
         }
     }
 }

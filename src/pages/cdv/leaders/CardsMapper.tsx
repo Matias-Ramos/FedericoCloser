@@ -5,7 +5,7 @@ import memberList from './memberList';
 // Icons
 import Card from './Card';
 // Style
-const colStyle = "d-flex flex-column";
+const colStyle = "d-flex flex-column cardCol";
 
 const CardsMapper = () => (
     <>

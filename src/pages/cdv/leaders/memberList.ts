@@ -2,7 +2,7 @@ import { Member_T } from "../../../components/socMediaMapper/MembersType";
 
 const cesar: Member_T = {
     name: "Cesar Jorquera",
-    picture: "/leaders/cesar.jpg",
+    picture: "/leaders/tino_w_bckg.png",
     exp: "César, con un historial comprobado, ascendió a liderar gracias a una historia de superar consistentemente las metas de ventas. Su enfoque estratégico y centrado en el cliente lo convierten en una fuerza orientadora en el ámbito de las ventas.",
     socialMedia: {
         fb: "https://www.facebook.com",
@@ -24,7 +24,7 @@ const tino: Member_T = {
 
 const teo: Member_T = {
     name: "Teo Tinivelli",
-    picture: "/leaders/teo.jpg",
+    picture: "/leaders/tino_w_bckg.png",
     exp: "El liderazgo de Tino en ventas tiene sus raíces en su amplia experiencia en relaciones con clientes. Su capacidad para construir conexiones duraderas, junto con un agudo sentido de los negocios, lo distingue como un pionero en el campo.",
     socialMedia: {
         tiktok: "https://www.tiktok.com",
@@ -32,6 +32,6 @@ const teo: Member_T = {
     }
 };
 
-const members: Member_T[] = [cesar, tino, teo];
+const members: Member_T[] = [tino, cesar, teo];
 
 export default members;

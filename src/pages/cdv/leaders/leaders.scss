@@ -12,8 +12,16 @@
         @extend .blueBackg_base;
     }
 
-    .cardBorder .legend {
-        border-top: 1px solid #e8e8e8;
+    .imgContainer img{
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .legend{
+        padding: 1rem;
+
+        .leadName{
+            margin-top: 1rem;
+        }
     }
 }
 
@@ -29,6 +37,31 @@
 
         h2 {
             margin-left: 3rem;
+        }
+
+        .cardCol:first-child, .cardCol:last-child{
+
+            // brings closer the text to the smaller imgs
+            .legend{
+                padding-top: 0;
+
+                .leadName{
+                    margin-top: 0;
+                }
+            }
+
+
+            .imgContainer{
+                height: 90%;
+
+                img{
+                    height: 100%;
+                    width: 100%!important;
+                    display: block;
+                    object-fit: contain;
+                }
+            }
+
         }
     }
 }

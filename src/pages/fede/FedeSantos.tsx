@@ -1,5 +1,5 @@
 import About from "./aboutFede/About"
-import Footer from "./footer/Footer"
+import Footer from "../../components/footer/Footer"
 import Intro from "./introduction/Intro"
 import Pitch from "./pitch/Pitch"
 import TestimonialsFede from "./testimonials/TestimonialsFede"

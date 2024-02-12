@@ -20,6 +20,7 @@ const NavHeader = () => {
         initial="hidden"
         animate="show"
         viewport={{ once: true }}
+        id="header"
     >
         <img id="background" src={background} alt="background" />
         <img id="animatedTriangles" src={animatedTriangles} alt="background animation triangles" />

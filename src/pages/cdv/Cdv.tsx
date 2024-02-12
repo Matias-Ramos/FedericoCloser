@@ -1,5 +1,5 @@
 import Detail from "./detail/Detail"
-import Footer from "./footer/Footer"
+import Footer from "../../components/footer/Footer"
 import Leaders from "./leaders/Leaders"
 import Products from "./products/Products"
 import Purpose from "./purpose/Purpose"

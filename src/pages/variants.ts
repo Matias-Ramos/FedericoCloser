@@ -59,7 +59,7 @@ const pulse = {
          scale: 1 
     },
     visible: {
-        scale: [1, 1.03, 1, 1.02, 1] ,
+        scale: [1, 1.02, 1, 1.02, 1] ,
         transition: {
             delay: 1.2, duration: 0.90, ease: "easeInOut" 
         }

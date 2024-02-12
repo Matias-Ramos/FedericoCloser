@@ -5,7 +5,7 @@ import { BsChatDotsFill } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { fadeIn } from "../../pages/variants";
 // Style
-const containerStyling = 'd-flex w-100 align-items-center justify-content-center justify-content-lg-start mb-lg-4';
+const containerStyling = 'd-flex w-100 align-items-center justify-content-center justify-content-lg-start mb-lg-4 h2andIcon';
 const animationCtStyling = "z-2 d-flex align-items-center justify-content-center justify-content-lg-start gap-3";
 const h2style = "m-0 position-relative";
 

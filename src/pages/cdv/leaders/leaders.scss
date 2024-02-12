@@ -1,33 +1,40 @@
 @import '../../../styles/colors.scss';
 @import '../sharedStyles.scss';
 
-#leaders{
+#leaders {
 
-    h2{
+    h2 {
         color: white;
         text-shadow: 1px 1px 2px black;
     }
-    .blueBackg{
+
+    .blueBackg {
         @extend .blueBackg_base;
     }
-    .cardBorder .legend{
+
+    .cardBorder .legend {
         border-top: 1px solid #e8e8e8;
     }
 }
 
-@media only screen and (min-width: 992px){
-    #leaders{
-        position:relative;
+@media only screen and (min-width: 992px) {
+    #leaders {
+        position: relative;
         padding: 6rem 0px 1rem 0px;
 
-            .blueBackg{
-                clip-path: polygon(1% 0, 100% 0, 100% 100%, 2% 100%);
-                height: calc(1.8rem + .9vw);
-            }
+        .blueBackg {
+            clip-path: polygon(1% 0, 100% 0, 100% 100%, 2% 100%);
+            height: calc(1.8rem + .9vw);
+        }
+
+        h2 {
+            margin-left: 3rem;
+        }
     }
 }
-@media only screen and (max-width: 991px){
-    #leaders{
+
+@media only screen and (max-width: 991px) {
+    #leaders {
         padding-bottom: 1rem;
     }
 }

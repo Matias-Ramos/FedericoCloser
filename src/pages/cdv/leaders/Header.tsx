@@ -7,7 +7,7 @@ import { fadeIn } from "../../variants";
 const h2style = "w-100 z-2 d-block position-relative";
 
 const Header = () => (
-    <Col className="h2col">
+    <Col className="h2col position-relative">
         <div className="blueBackg"></div>
         <motion.h2
             variants={fadeIn("left")}

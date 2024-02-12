@@ -8,7 +8,7 @@ const h2style = "z-2 w-100 d-block position-relative";
 
 const Header = () => (
     <Row>
-        <Col className="h2col">
+        <Col className="h2col position-relative">
             <div className="blueBackg"></div>
             <motion.h2
                 variants={fadeIn("left")}

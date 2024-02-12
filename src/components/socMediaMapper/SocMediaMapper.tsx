@@ -15,7 +15,6 @@ const SocMediaMapper = ({ member }: { member: Member_T }) => (
     initial="hidden"
     animate="show"
     viewport={{ once: true }}
-
   >
     {Object.entries(member.socialMedia).map(([social, link]) => (
       <a

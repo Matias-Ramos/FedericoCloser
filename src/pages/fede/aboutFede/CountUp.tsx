@@ -15,7 +15,7 @@ const CountUp = ({ upTo }: { upTo: number }) => {
     return (
         <motion.span
             ref={ref}
-            className="d-inline-block"
+            className="d-inline-block fs-5"
         >
             {rounded}
         </motion.span>

@@ -30,7 +30,7 @@ const container = {
     show: {
         opacity: 1,
         transition: {
-            staggerChildren: 0.5
+            staggerChildren: 0.5,
         }
     }
 }
@@ -53,3 +53,16 @@ const item = (direction: string, type: string) => {
     }
 }
 export const staggerFadeIn = { container, item }
+
+const pulse = {
+    hidden: {
+         scale: 1 
+    },
+    visible: {
+        scale: [1, 1.03, 1, 1.02, 1] ,
+        transition: {
+            delay: 1.2, duration: 0.90, ease: "easeInOut" 
+        }
+    },
+}
+export { pulse }

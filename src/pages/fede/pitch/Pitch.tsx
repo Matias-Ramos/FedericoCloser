@@ -2,6 +2,9 @@
 import { Container, Row, Col } from "react-bootstrap"
 // Components
 import CtaBtn from "../../../components/ctaBtn/CtaBtn"
+// Animation
+import { motion } from 'framer-motion';
+import { pulse } from "../../variants";
 // Style
 const rowStyle="d-flex justify-content-center";
 const colStyle="d-flex flex-column";
@@ -17,7 +20,14 @@ const Pitch = () => {
                         Descubre cómo nuestras técnicas de ventas pueden impulsar tu éxito.<br />
                         ¡Conversemos y transformemos juntos tu carrera!
                     </span>
-                    <CtaBtn text="Hablemos!" handleClick={()=>{}} />
+                    <motion.div
+                        variants={pulse}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once:true }}
+                    >
+                        <CtaBtn text="Hablemos!" handleClick={()=>{}} />
+                    </motion.div>
                 </Col>
             </Row>
         </Container>

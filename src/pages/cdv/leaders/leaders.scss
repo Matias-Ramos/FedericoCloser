@@ -12,14 +12,10 @@
         @extend .blueBackg_base;
     }
 
-    .imgContainer img{
-        border-bottom: 1px solid #e8e8e8;
-    }
-
-    .legend{
+    .legend {
         padding: 1rem;
 
-        .leadName{
+        .leadName {
             margin-top: 1rem;
         }
     }
@@ -39,24 +35,29 @@
             margin-left: 3rem;
         }
 
-        .cardCol:first-child, .cardCol:last-child{
+        .imgContainer img {
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .cardCol:first-child,
+        .cardCol:last-child {
 
             // brings closer the text to the smaller imgs
-            .legend{
+            .legend {
                 padding-top: 0;
 
-                .leadName{
+                .leadName {
                     margin-top: 0;
                 }
             }
 
 
-            .imgContainer{
+            .imgContainer {
                 height: 90%;
 
-                img{
+                img {
                     height: 100%;
-                    width: 100%!important;
+                    width: 100% !important;
                     display: block;
                     object-fit: contain;
                 }
@@ -69,5 +70,13 @@
 @media only screen and (max-width: 991px) {
     #leaders {
         padding-bottom: 1rem;
+
+        .legend {
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .cardCol:last-child .legend {
+            border-bottom: none;
+        }
     }
 }

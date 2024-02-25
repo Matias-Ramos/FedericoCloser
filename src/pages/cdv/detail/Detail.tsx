@@ -21,7 +21,7 @@ const Detail = () => {
       <Container >
         <Row className={rowStyle}>
 
-          <Col xs={12} lg={7} xxl={6} className={txtStyle}>
+          <Col xs={12} className={txtStyle}>
             <Text />
           </Col>
 
@@ -29,8 +29,8 @@ const Detail = () => {
             <CardMapper />
           </Col>
 
-          <Col xs={12} lg={9} xxl={8} className={ctaStyle}>
-                <CallToAction />
+          <Col xs={12} className={ctaStyle}>
+            <CallToAction />
           </Col>
 
         </Row>

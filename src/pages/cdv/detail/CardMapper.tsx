@@ -9,8 +9,8 @@ const CardMapper = () => (
         <Card
           key={index}
           icon={card.icon}
-          title={card.title}
           description={card.description}
+          hightlight={card.hightlight}
         />
       )
     )}

@@ -7,24 +7,24 @@ import { FaShieldAlt } from "react-icons/fa";
 
 export interface Card_T {
     icon: ReactNode,
-    title: string,
+    hightlight: string,
     description: string,
 }
 
 export const cardList: Card_T[] = [
     {
         icon: <FaMoneyBillTrendUp />,
-        title:"Beneficio 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eos nesciunt! Nobis, necessitatibus maxime."
+        hightlight: "Multiplica tus ventas ",
+        description: "sin invertir más en publicidad, sin bajar precios y aumentándolos."
     },
     {
         icon: <FaCheckCircle />,
-        title:"Beneficio 2",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eos nesciunt! Nobis, necessitatibus maxime."
+        hightlight: "Fideliza un equipo, ",
+        description: "disminuye la rotación y ahorra tiempo ganando mas dinero."
     },
     {
         icon: <FaShieldAlt />,
-        title:"Beneficio 3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, eos nesciunt! Nobis, necessitatibus maxime."
+        hightlight: "Implementa un proceso anticrisis ",
+        description: "(validado en el mercado internacional) y consérvalo de por vida."
     },
 ]

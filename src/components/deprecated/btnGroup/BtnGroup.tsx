@@ -9,6 +9,16 @@ import { getButtonStyle, ariaLabel } from './utils';
 // Navigation
 import { Link, useLocation } from 'react-router-dom'
 
+// const btnGroupColStyle = 'd-flex justify-content-center flex-column ps-lg-5'
+// const btnGroupSpanStyle = 'd-block text-center text-lg-start d-md-inline '
+{/* 
+<Col className={btnGroupColStyle} xs={12} md={7} xl={6} xxl={5}>
+    <span className={btnGroupSpanStyle}>
+        Estas viendo:
+    </span>
+    <BtnGroup />
+</Col>
+*/}
 const BtnGroup = () => {
 
     const isMobile = useMediaQuery('(max-width:991px)');

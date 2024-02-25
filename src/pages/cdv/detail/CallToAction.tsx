@@ -13,7 +13,7 @@ const CallToAction = () => (
 
         <Col xs={12} lg={5} >
             <span className={spanStyle}>
-                ¿ Querés saber más ?
+                ¿ Es compatible con mi empresa ?
             </span>
         </Col>
 
@@ -22,8 +22,8 @@ const CallToAction = () => (
         </Col>
 
         <Col xs={12} lg={5} className={ctaStyle}>
-            <Button variant="outlined" onClick={() => { }}>
-                Descargar PDF
+            <Button variant="contained" onClick={() => { }}>
+                Consulta con un experto
             </Button>
         </Col>
     </Row>

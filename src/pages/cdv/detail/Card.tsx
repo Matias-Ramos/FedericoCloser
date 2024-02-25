@@ -2,11 +2,10 @@
 import { Card_T } from "./cardList"
 // Styles
 import { IconContext } from "react-icons";
-const titleStyle = "fw-bold";
 const iconStyle = "ms-auto me-auto";
 const cardStyle = `
+  h-100
   w-100
-  h-auto
   d-flex
   flex-column
   justify-content-center
@@ -16,23 +15,21 @@ const cardStyle = `
   bg-light
   lightBlueBorder`;
 
-const Card = ({ icon, title, description }: Card_T) => (
-  <div className={cardStyle}>
+const Card = ({ icon, hightlight, description }: Card_T) => (
+  <div>
+    <div className={cardStyle}>
 
-    <span className={titleStyle}>
-      {title}
-    </span>
+      <div className={iconStyle}>
+        <IconContext.Provider value={{ size: "2.5rem" }}>
+          {icon}
+        </IconContext.Provider>
+      </div>
 
-    <div className={iconStyle}>
-      <IconContext.Provider value={{ size: "2.5rem" }}>
-        {icon}
-      </IconContext.Provider>
+      <span>
+        <b>{hightlight}</b>{description}
+      </span>
+
     </div>
-
-    <span>
-      {description}
-    </span>
-
   </div>
 
 )

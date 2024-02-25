@@ -1,9 +1,9 @@
 const Text = () => {
   return (
     <>
-        <h2>[Propósito]</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quos quam ipsum, voluptates et illo, unde doloremque nostrum optio sunt sequi, labore recusandae cum? Quo pariatur nostrum doloremque a consequuntur.</p>
+        <h2>Sigues Pagando Capacitaciones a tu Equipo de Vendedores <u>SIN RESULTADOS</u>?</h2>
+        <p><b>CDV:</b> Terapia intensiva y rehabilitación para vendedores <i>-que no venden nada-</i>.</p>
     </>
   )
 }
-export default Text
+export default Text;

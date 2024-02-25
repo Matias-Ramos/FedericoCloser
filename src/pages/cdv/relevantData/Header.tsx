@@ -16,7 +16,7 @@ const Header = () => (
             viewport={{ once: true }}
             className={h2style}
         >
-            Líderes del Campamento
+            Datos relevantes
         </motion.h2>
     </Col>
 )

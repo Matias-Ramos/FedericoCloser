@@ -1,33 +1,30 @@
 // Types
-import { Member_T } from "../../../components/socMediaMapper/MembersType";
-// Icons
-import SocMediaMapper from '../../../components/socMediaMapper/SocMediaMapper';
+import { Profile } from "./tinoProfile";
 // Style
 const containerStyle = "d-flex flex-column justify-content-between h-100 cardBorder";
 const legendStyle = 'd-flex flex-column h-100 justify-content-between legend';
-const nameStyle = "text-center fw-bold leadName"
+const roleStyle = "text-center fw-bold leadName"
 
-const Card = ({ member }: { member: Member_T }) => (
+const Card = ({ teo }: { teo: Profile }) => (
     <div className={containerStyle}>
 
         <div className="position-relative">
             <div className="imgContainer">
                 <img
                     className="w-100"
-                    src={member.picture}
-                    alt={`Foto de ${member.name}`} 
+                    src={teo.picture}
+                    alt={`Foto de ${teo.name}`} 
                 />
             </div>
         </div>
 
         <div className={legendStyle}>
-            <span className={nameStyle}>
-                {member.name}
+            <span className={roleStyle}>
+                Nuestro director
             </span>
             <span className='my-3'>
-                {member.exp}
+                {teo.exp}
             </span>
-            <SocMediaMapper member={member} />
         </div>
 
     </div>

@@ -1,9 +1,17 @@
-import { Member_T } from "../../../components/socMediaMapper/MembersType";
+type Profile = {
+    name: string,
+    picture: string,
+    socialMedia: {
+        fb?: string,
+        tiktok?: string,
+        twitter?: string,
+        instagram?: string,
+    },
+}
 
-const federico: Member_T = {
+const federico: Profile = {
     name: "Federico Santos",
     picture: "/federico/profile-pic.png",
-    exp: "Experimentado vendedor con más de 10 años de éxito en estrategias innovadoras y cierres estratégicos, especializado en construir relaciones sólidas y superar objetivos.",
     socialMedia: {
         fb: "https://www.facebook.com",
         tiktok: "https://www.tiktok.com",
@@ -12,7 +20,4 @@ const federico: Member_T = {
     }
 };
 
-
-const fedeArr: Member_T[] = [ federico ];
-
-export default fedeArr;
+export default federico;

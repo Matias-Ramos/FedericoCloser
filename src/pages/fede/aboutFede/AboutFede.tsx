@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 import SocMediaMapper from "../../../components/socMediaMapper/SocMediaMapper"
 // Data
-import fedeArr from "./fedeData"
+import federico from "./fedeData"
 // Animation
 import { motion } from "framer-motion"
 import { fadeIn } from "../../variants"
@@ -35,18 +35,20 @@ const AboutFede = () => {
               </span>
               <h2> Soy Federico Santos </h2>
               <div id="line"></div>
-              <span> Experto vendedor </span>
+              <span> Estratega experto </span>
             </div>
 
-            <p>{fedeArr[0].exp}</p>
-
+            <span className="mb-3 mt-1">
+              Analicemos tu modelo de negocio, de forma totalmente <u>gratuita</u> y <u>personalizada</u>, en una asesoría de 30' para crear la mejor propuesta posible para tu emprendimiento. 
+            </span>
+            
             <CtaBtn text="Hablemos!" handleClick={()=>{}} />
 
-            <SocMediaMapper member={fedeArr[0]}/>
+            <SocMediaMapper member={federico}/>
 
           </Col>
           <Col xs={12} lg={5} className="introCol">
-            <img src={fedeArr[0].picture} className="w-100" alt="Imagen Fede Santos" />
+            <img src={federico.picture} className="w-100" alt="Imagen Fede Santos" />
           </Col>
         </Row>
       </Container>

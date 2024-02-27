@@ -4,8 +4,10 @@ type CtaProps = {
 };
 
 const CtaBtn = ({ text, handleClick }: CtaProps) => (
-    <button className="ctaBtn w-100" onClick={handleClick}>
-        <span>{text}</span>
-    </button>
+    <div className="ctaBtnContainer">
+        <button className="ctaBtn w-100" onClick={handleClick}>
+            <span>{text}</span>
+        </button>
+    </div>
 )
 export default CtaBtn

@@ -4,9 +4,15 @@ import { Container, Row, Col } from "react-bootstrap"
 import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 // Data
 import fedeImg from '/assets/vectorial-img.svg';
+// Style
+const sectionStyle = { 
+    backgroundColor: "#f1f1f1",
+    borderBottom: "1px solid #e1e1e1"
+}
+
 
 const InitialPitch = () => (
-    <section id="initialPitch">
+    <section style={sectionStyle} id="initialPitch">
         <Container>
             <Row>
 
@@ -22,7 +28,7 @@ const InitialPitch = () => (
                         <i>(Sin tener que invertir mas dinero en publicidad)</i>
                     </span>
 
-                    <div className="mt-3 mx-auto btnContainer">
+                    <div className="w-100 d-flex justify-content-center mt-3">
                         <CtaBtn text="Quiero aplicar!" handleClick={()=>{}} />
                     </div>
                 </Col>

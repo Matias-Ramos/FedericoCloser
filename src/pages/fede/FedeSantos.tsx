@@ -8,8 +8,8 @@ const FedeSantos = () => {
   return (
     <>
     <main>
+      <InitialPitch />  
       <AboutFede />
-      <InitialPitch />
       <TestimonialsFede />
       <Pitch />
     </main>

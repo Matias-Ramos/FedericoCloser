@@ -1,6 +1,6 @@
 import Footer from "../../components/footer/Footer"
 import AboutFede from "./aboutFede/AboutFede"
-import Pitch from "./lastPitch/Pitch"
+import Pitch from "./lastPitch/LastPitch"
 import TestimonialsFede from "./testimonials/TestimonialsFede"
 import InitialPitch from "./initialPitch/InitialPitch"
 

@@ -1,27 +1,22 @@
-#pitch {
-    text-align: center;
-    button{
-        margin: 2rem auto 0px auto;
+#lastPitch {
+    #mainPhrase{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
     }
 }
-
 @media only screen and (max-width: 991px) {
-    #pitch {
+    #lastPitch {
         padding-top: 7.5rem;
         
-        button{
-            width: 75%;
+        .ctaBtnContainer{
+            width: 100%; // overwrites ctaBtn.scss
         }
     }
 }
 
 @media only screen and (min-width: 992px) {
-    #pitch {
+    #lastPitch {
         padding-top: 8rem;
         padding-bottom: 4rem;
-
-        button{
-            width: 50%;
-        }
     }
 }

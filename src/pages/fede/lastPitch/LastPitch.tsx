@@ -11,22 +11,21 @@ const colStyle="d-flex flex-column";
 
 const Pitch = () => {
   return (
-    <section id="pitch">
+    <section id="lastPitch" className="text-center">
         <Container>
             <Row className={rowStyle}>
-                <Col xs={12} sm={11} lg={9} xl={6} xxl={5} className={colStyle}>
-                    <h2>Domina el arte de vender</h2>
-                    <span>
-                        Descubre cómo nuestras técnicas de ventas pueden impulsar tu éxito.<br />
-                        ¡Conversemos y transformemos juntos tu carrera!
+                <Col xs={12} sm={11} lg={8} xxl={5} className={colStyle}>
+                    <span id="mainPhrase">
+                        DESCUBRE EL PODER DE IMPLANTAR UN SISTEMA DE VENTAS TAN <b>SENCILLO Y EFECTIVO</b> QUE DESTROCE LOS LIMITES DE TU FACTURACIÓN.
                     </span>
                     <motion.div
                         variants={pulse}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once:true }}
+                        className="mt-3 d-flex justify-content-center"
                     >
-                        <CtaBtn text="Hablemos!" handleClick={()=>{}} />
+                        <CtaBtn text="Quiero toda la información" handleClick={()=>{}} />
                     </motion.div>
                 </Col>
             </Row>

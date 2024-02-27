@@ -11,7 +11,9 @@ const Layout = () => (
             {PossitiveBulletPoints.map( bp => (
                 <div>
                     {bp.icon}
-                    <span>{bp.title}</span>
+                    <span className='ms-1'>
+                        <b>{bp.title}</b>
+                    </span>
                     {bp.description}
                 </div>
             ))}
@@ -21,7 +23,7 @@ const Layout = () => (
             {NegativeBulletPoints.map( bp => (
                 <div>
                     {bp.icon}
-                    <span>{bp.description}</span>
+                    <span className='ms-1'>{bp.description}</span>
                 </div>
             ))}
         </Col>

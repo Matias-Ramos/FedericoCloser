@@ -1,16 +1,24 @@
+// Data
+import products from "./productList";
 // BTS
 import { Container } from "react-bootstrap";
 // Components
-import ProductsMapper from "./ProductsMapper";
 import Header from "./Header";
-import NiceAndEasy from "./NiceAndEasy";
+import Card from "./Card";
 
 const Products = () => (
   <section id="products">
     <Container>
       <Header />
-      <NiceAndEasy />
-      <ProductsMapper />
+
+      {products.map( product => (
+        <Card
+          title={product.title}
+          img={product.img}
+          description={product.description}
+        />  
+      ))}
+
     </Container>
   </section>
 )

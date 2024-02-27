@@ -10,7 +10,7 @@ import { motion } from "framer-motion"
 import { fadeIn } from "../../variants"
 
 
-const Intro = () => {
+const AboutFede = () => {
   return (
     <motion.section
       id="introduction"
@@ -53,4 +53,4 @@ const Intro = () => {
     </motion.section>
   )
 }
-export default Intro
+export default AboutFede

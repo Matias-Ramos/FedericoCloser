@@ -1,15 +1,15 @@
-import About from "./aboutFede/About"
 import Footer from "../../components/footer/Footer"
-import Intro from "./introduction/Intro"
-import Pitch from "./pitch/Pitch"
+import AboutFede from "./aboutFede/AboutFede"
+import Pitch from "./lastPitch/Pitch"
 import TestimonialsFede from "./testimonials/TestimonialsFede"
+import InitialPitch from "./initialPitch/InitialPitch"
 
 const FedeSantos = () => {
   return (
     <>
     <main>
-      <Intro />
-      <About />
+      <AboutFede />
+      <InitialPitch />
       <TestimonialsFede />
       <Pitch />
     </main>

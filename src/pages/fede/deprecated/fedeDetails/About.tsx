@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 // Components
 import Header from "./Header"
 import Metrics from "./Metrics"
-import CtaBtn from "../../../components/ctaBtn/CtaBtn"
+import CtaBtn from "../../../../components/ctaBtn/CtaBtn"
 import fedeImg from "/federico/profile-pic_2.png"
 // Styles
 const rowStyle="justify-content-around"

@@ -17,7 +17,7 @@ const CallToAction = () => (
             </span>
         </Col>
 
-        <Col xs={12} lg={2} >
+        <Col xs={12} lg={2} className="text-center">
             <Chevron />
         </Col>
 

@@ -6,9 +6,9 @@ import { FaFacebook, FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa"
 import Links from "./Links"
 import { useLocation } from "react-router-dom"
 // Style
-const footerStyle = "bg-dark text-light p-4"
+const footerStyle = "bg-dark text-light"
 const colStyle = "d-flex flex-column text-lg-start mb-3 mb-lg-0"
-const iconsCtStyle = "d-flex justify-content-start justify-content-lg-end align-items-lg-center gap-3"
+const iconsCtStyle = "d-flex justify-content-center justify-content-lg-end align-items-lg-center gap-3"
 
 const Footer = () => {
   

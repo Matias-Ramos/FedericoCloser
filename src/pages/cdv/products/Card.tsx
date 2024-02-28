@@ -1,5 +1,6 @@
 // BTS
 import { Row, Col } from "react-bootstrap";
+import CtaBtn from "../../../components/ctaBtn/CtaBtn";
 // Style
 const rowStyle = "productRow justify-content-center position-relative";
 const imgColStyle = "d-flex justify-content-center imgCol z-2";
@@ -24,7 +25,7 @@ const Card = ({title, img, description}: Props) => {
     <Col xs={12} lg={4} className={imgColStyle}>
         <img
             src={img}
-            className="w-100"
+            className="object-fit-cover"
             alt={`Imagen del Campamento de ventas`}
         />
     </Col>
@@ -34,9 +35,11 @@ const Card = ({title, img, description}: Props) => {
           {title}
         </span>
 
-        <div>
+        <div className="mb-3">
             {description()}
         </div>
+
+        <CtaBtn text="Hablemos!" handleClick={()=>{}} />
     </Col>
     <Col className="hrCol" xs={12}>
         <hr />

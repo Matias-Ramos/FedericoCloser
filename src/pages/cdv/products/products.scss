@@ -48,12 +48,15 @@
 @media only screen and (min-width: 992px) {
     #products {
         position: relative;
+        padding: 2rem 0px 5rem 0px;
 
         .h2col{
-
             .blueBackg {
                 clip-path: polygon(0 0, 95% 0, 94% 100%, 0% 100%);
                 height: calc(1.8rem + .9vw);
+            }
+            h2{
+                margin-left: 2rem;
             }
         }
 
@@ -71,9 +74,14 @@
 
         .productRow {
             margin-top: 1rem;
-            
+            img{
+                width: 100%;
+            }
             &:nth-child(2){
                 margin-top: 6rem;
+            }
+            &:nth-child(3) img{
+                width: auto;
             }
 
             img{
@@ -105,9 +113,6 @@
             display: flex;
             align-items: center;
 
-            h2{
-                margin-left: 10px;
-            }
             .blueBackg {
                 height: 100%;
             }
@@ -120,15 +125,6 @@
         button {
             width: 60%;
             margin: 1rem auto 0px auto;
-        }
-    }
-}
-@media only screen and (min-width: 992px) {
-    #products {
-        padding: 2rem 0px 5rem 0px;
-
-        h2{
-            margin-left: 2rem;
         }
     }
 }

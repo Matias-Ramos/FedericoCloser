@@ -13,6 +13,7 @@ const Products = () => (
 
       {products.map( product => (
         <Card
+          key={product.title}
           title={product.title}
           img={product.img}
           description={product.description}

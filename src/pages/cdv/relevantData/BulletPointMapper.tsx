@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import { PossitiveBulletPoints, NegativeBulletPoints } from './BulletPointList';
 
 // Style
-const colStyle = "d-flex flex-column gap-4";
+const colStyle = "d-flex flex-column gap-4 bulletCol";
 
 const Layout = () => (
     <>

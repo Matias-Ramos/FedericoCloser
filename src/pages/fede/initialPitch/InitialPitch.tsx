@@ -21,7 +21,7 @@ const InitialPitch = () => (
     <motion.div
         variants={fadeIn("up")}
         initial="hidden"
-        whileInView="show"
+        animate="show"
         viewport={{once:true}}
         style={{backgroundColor:"#0055ff"}}
     >

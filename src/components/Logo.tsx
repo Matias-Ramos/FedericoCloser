@@ -1,5 +1,5 @@
-import blueLogo from '/cdv/blueLogo_whiteBckg.png';
-import whiteLogo from '/cdv/logo_white.png';
+import blueLogo from '/assets/logo.png';
+import whiteLogo from '/assets/logo_white.png';
 
 const Logo = ({ color } : { color: string }) => (
     <img 

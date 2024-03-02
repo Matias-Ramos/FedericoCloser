@@ -2,8 +2,10 @@
 import { Container, Row, Col } from "react-bootstrap"
 // Components
 import CtaBtn from "../../../components/ctaBtn/CtaBtn"
-// Data
 import fedeImg from '/assets/vectorial-img.svg';
+// Animation
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../components/variants";
 // Style
 const sectionStyle = { 
     backgroundImage: `url('/backgrounds/curveLines.svg')`,
@@ -16,7 +18,13 @@ const secondColStyle = "text-center d-flex flex-column justify-content-center mt
 const ctaBtnCtStyle = "w-100 d-flex justify-content-center mt-3"
 
 const InitialPitch = () => (
-    <div style={{backgroundColor:"#0055ff"}}>
+    <motion.div
+        variants={fadeIn("up")}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once:true}}
+        style={{backgroundColor:"#0055ff"}}
+    >
         <section style={sectionStyle} id="initialPitch">
             <Container>
                 <Row>
@@ -41,6 +49,6 @@ const InitialPitch = () => (
                 </Row>
             </Container>
         </section>
-    </div>
+    </motion.div>
   )
 export default InitialPitch

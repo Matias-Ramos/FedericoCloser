@@ -1,0 +1,56 @@
+#signatureSection {
+    background-color: #343a40;
+
+    $font-color: #9FA8B2;
+    color: $font-color;
+
+    a {
+        color: $font-color;
+    }
+
+    #externalCredits {
+        ul {
+            padding: 0;
+            display: inline-block;
+            margin-top: auto;
+            margin-bottom: auto;
+
+            li {
+                list-style-type: none;
+                margin: 0;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+/***********************/
+/*Laptops and desktops*/
+@media only screen and (min-width: 992px) {
+    #signatureSection {
+        font-size: .8rem;
+        padding: 0rem 1rem 2px 1rem;
+    }
+}
+
+/***********************/
+/*Tablets and phones*/
+@media only screen and (max-width: 991px) {
+    #signatureSection {
+        font-size: .9rem;
+        text-align: end;
+        padding:.2rem 0px 0px 0px;
+
+        .container-fluid {
+            background-color: #343a40;
+
+            .row {
+                flex-direction: column;
+
+                #externalCredits {
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}

@@ -4,19 +4,21 @@
     // Text
     .introCol:first-child {
 
-        h2{
+        h2 {
             font-weight: bold;
         }
 
-        h2, span {
+        h2,
+        span {
             margin-bottom: 0;
         }
 
-        #titles{
+        #titles {
 
             font-size: calc(1.325rem + .9vw);
 
-            h2, span:nth-child(1) {
+            h2,
+            span:nth-child(1) {
                 display: block;
             }
 
@@ -55,7 +57,8 @@
 
 @media only screen and (min-width: 992px) {
     #introduction {
-
+        padding: 4rem 0px; 
+        
         // Text
         .introCol:first-child {
 

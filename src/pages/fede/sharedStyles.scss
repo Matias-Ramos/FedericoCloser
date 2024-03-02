@@ -1,0 +1,31 @@
+.blueBackg_base {
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    background: url('/backgrounds/blue_bckg.jpg');
+    position: absolute;
+}
+
+// h2
+@media only screen and (max-width: 991px) {
+
+    #leaders,
+    #products,
+    #testimonials {
+        .h2col {
+            position: relative;
+            padding: 1rem 0px;
+            display: flex;
+            align-items: center;
+
+            h2 {
+                margin: 0px 5px;
+                text-align: center;
+            }
+
+            .blueBackg {
+                height: 100%;
+            }
+        }
+    }
+}

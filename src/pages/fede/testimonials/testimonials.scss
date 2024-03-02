@@ -1,0 +1,64 @@
+@import '../sharedStyles.scss';
+
+#testimonials {
+    position: relative;
+    background-image: url('/backgrounds/white_bckg.jpg');
+    border-top: 1px solid #e9ecef;
+
+    h2 {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .blueBackg {
+        @extend .blueBackg_base;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        background-color: #6B6F6B;
+        width: 30px;
+        height: 30px;
+    }
+
+    .testimonialLogo {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #testimonials {
+        .h2col {
+            position: relative;
+
+            .blueBackg {
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #testimonials {
+        padding: 7.5rem 0px;
+
+        .testimonialLogo img {
+            width: 75%
+        }
+
+        .h2andIcon {
+            margin-left: 3.5rem;
+        }
+
+        .blueBackg {
+            clip-path: polygon(1% 0, 100% 0, 100% 100%, 2% 100%);
+            height: calc(1.8rem + .9vw);
+        }
+    }
+}

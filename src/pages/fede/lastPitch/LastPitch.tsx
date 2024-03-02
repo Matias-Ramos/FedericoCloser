@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 // Animation
 import { motion } from 'framer-motion';
-import { pulse } from "../../variants";
+import { pulse } from "../../../components/variants";
 // Style
 const rowStyle="d-flex justify-content-center";
 const colStyle="d-flex flex-column";

@@ -1,15 +1,8 @@
-@use './components/header/header.scss';
-@use './components/testimonials/testimonials.scss';
-@use './components/chevron/chevron.scss';
 @use './components/ctaBtn/ctaBtn.scss';
-@use './components/footer/footer.scss';
 
-
-@use './pages/cdv/purpose/purpose.scss';
-@use './pages/cdv/detail/detail.scss';
-@use './pages/cdv/products/products.scss';
-@use './pages/cdv/relevantData/relevantData.scss';
-@use './pages/cdv/testimonials/cdvTestimonials.scss';
-@use './pages/cdv/sharedStyles.scss';
+@use './pages/fede/header/header.scss';
 @use './pages/fede/aboutFede/aboutFede.scss';
+@use './pages/fede/testimonials/testimonials.scss';
 @use './pages/fede/lastPitch/LastPitch.scss';
+@use './pages/fede/footer/footer.scss';
+@use './pages/fede/signature/signature.scss';

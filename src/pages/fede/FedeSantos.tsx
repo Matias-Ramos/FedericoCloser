@@ -1,20 +1,20 @@
-import Footer from "../../components/footer/Footer"
+import Footer from "./footer/Footer"
 import AboutFede from "./aboutFede/AboutFede"
 import Pitch from "./lastPitch/LastPitch"
-import TestimonialsFede from "./testimonials/TestimonialsFede"
+import Testimonials from "./testimonials/Testimonials"
 import InitialPitch from "./initialPitch/InitialPitch"
+import Signature from "./signature/Signature"
 
-const FedeSantos = () => {
-  return (
-    <>
+const FedeSantos = () => (
+  <>
     <main>
-      <InitialPitch />  
+      <InitialPitch />
       <AboutFede />
-      <TestimonialsFede />
+      <Testimonials />
       <Pitch />
     </main>
     <Footer />
-    </>
-  )
-}
+    <Signature />
+  </>
+)
 export default FedeSantos

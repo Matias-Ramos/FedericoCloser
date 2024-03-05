@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Project name
+Landing page for P2P from Federico Santos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About it
 
-Currently, two official plugins are available:
+### Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website was built to **generate leads**.
+It guides potential clients towards a specific call to action (CTA) designed to initiate a sales conversation. In this case, the CTA encourages users to initiate a WhatsApp chat with the app owner for further information and potential purchase.
 
-## Expanding the ESLint configuration
+### The Solution
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Front-end made with React TS.
 
-- Configure the top-level `parserOptions` property like this:
+### Deployment
+The site is hosted in Netlify with automatic redeploy from GitHub.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Link
+https://www.santosclosers.com
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Code
+
+### Main libraries/frameworks
+- react-bootstrap _(grid system mainly)_
+- MaterialUi _(components)_
+- framer motion _(animation)_
+
+### Project execution
+Clone the repository. Run "npm install". Run "npm run dev" on the IDE terminal. The app should automatically open in development mode. Otherwise, you can open the app manually by accessing the host [http://localhost:5173] in the browser.
+
+### Project initialization
+The project was initialized with Vite.

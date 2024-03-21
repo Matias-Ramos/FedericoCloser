@@ -42,7 +42,7 @@ const AboutFede = () => (
             Analicemos tu modelo de negocio, de forma totalmente <u>gratuita</u> y <u>personalizada</u>, en una asesoría de 30' para crear la mejor propuesta posible para tu emprendimiento.
           </span>
 
-          <CtaBtn text="Hablemos!" handleClick={() => { }} />
+          <CtaBtn text="Hablemos!" />
 
           <SocMediaMapper member={federico} />
 

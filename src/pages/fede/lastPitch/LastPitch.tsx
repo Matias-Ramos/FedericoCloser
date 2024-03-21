@@ -25,7 +25,7 @@ const Pitch = () => {
                         viewport={{ once:true }}
                         className="mt-3 d-flex justify-content-center"
                     >
-                        <CtaBtn text="Quiero toda la información" handleClick={()=>{}} />
+                        <CtaBtn text="Quiero toda la información" />
                     </motion.div>
                 </Col>
             </Row>

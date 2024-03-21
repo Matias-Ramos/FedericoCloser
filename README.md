@@ -1,12 +1,14 @@
 # Project name
-Landing page for P2P from Federico Santos
+Campamento de Ventas P2P
 
 ## About it
 
 ### Purpose
 
-This website was built to **generate leads**.
-It guides potential clients towards a specific call to action (CTA) designed to initiate a sales conversation. In this case, the CTA encourages users to initiate a WhatsApp chat with the app owner for further information and potential purchase.
+This website serves two primary goals:
+
+- **Brand Introduction**: Introduce potential clients to the brand and its offerings, fostering brand awareness and understanding.
+- **Lead Generation**: Guide potential clients towards a specific call to action (CTA) designed to initiate a sales conversation. In this case, the CTA encourages users to initiate a WhatsApp chat with the app owner for further information and potential purchase.
 
 ### The Solution
 
@@ -17,6 +19,8 @@ The site is hosted in Netlify with automatic redeploy from GitHub.
 
 ### Link
 https://www.santosclosers.com
+
+
 
 ## Code
 
@@ -30,3 +34,4 @@ Clone the repository. Run "npm install". Run "npm run dev" on the IDE terminal. 
 
 ### Project initialization
 The project was initialized with Vite.
+

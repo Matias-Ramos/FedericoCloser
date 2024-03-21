@@ -33,7 +33,7 @@ const NavHeader = () => (
                 </Col>
 
                 <Col className={colStyle}>
-                    <h1 className='text-center'>
+                    <h1 className='text-center mt-2'>
                         La clave para tener éxito en tus estrategias de ventas P2P
                     </h1>
                 </Col>

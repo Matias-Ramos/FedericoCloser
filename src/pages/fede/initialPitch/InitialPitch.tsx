@@ -42,7 +42,7 @@ const InitialPitch = () => (
                         </span>
 
                         <div className={ctaBtnCtStyle}>
-                            <CtaBtn text="Quiero aplicar!" handleClick={()=>{}} />
+                            <CtaBtn text="Quiero aplicar!" />
                         </div>
                     </Col>
 

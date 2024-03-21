@@ -20,7 +20,7 @@ const About = () => {
                 <Col xs={12} lg={7} xl={6} xxl={5} className={txtStyle}>
                     <Header />
                     <Metrics />
-                    <CtaBtn text="Hablemos!" handleClick={()=>{}} />
+                    <CtaBtn text="Hablemos!" />
                 </Col>
             </Row>
         </Container>
